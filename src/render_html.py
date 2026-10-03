@@ -434,6 +434,7 @@ main.results{flex:1;min-width:0}
 .toggle-row{display:flex;align-items:center;justify-content:space-between;font-size:13.5px;font-weight:600;cursor:pointer}
 .switch{position:relative;width:42px;height:24px;flex-shrink:0}
 .switch input{opacity:0;width:0;height:0}
+.startup-count{margin-left:auto;margin-right:10px;color:var(--mut);font-size:12px;font-weight:700}
 .sl{position:absolute;inset:0;border:1.5px solid var(--ink);border-radius:999px;transition:.15s;background:#fff}
 .sl:before{content:"";position:absolute;width:16px;height:16px;left:3px;top:2.5px;background:var(--ink);border-radius:50%;transition:.15s}
 .switch input:checked+.sl{background:var(--ink)}
@@ -521,7 +522,7 @@ footer a{font-weight:600}
     <input class="hsearch" id="q" type="search" placeholder="Search title, company, or description…" autocomplete="off" aria-label="Search jobs">
     <button class="btn btn-ghost" id="filterToggle" aria-label="Open filters">Filters</button>
     <div class="nav-links">
-      <a class="btn btn-ghost" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star</a>
+      <a class="btn btn-ghost" href="https://github.com/GaneshReddy08/JobsBuddy" target="_blank" rel="noopener">★ Star</a>
     </div>
   </div>
 </header>
@@ -529,7 +530,7 @@ footer a{font-weight:600}
 <div class="wrap">
   <div class="star-banner" id="starBanner">
     <span>JobsBuddy is free &amp; open-source — a star helps other students find it.</span>
-    <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
+    <a href="https://github.com/GaneshReddy08/JobsBuddy" target="_blank" rel="noopener">★ Star on GitHub</a>
     <button id="starDismiss" aria-label="Dismiss">✕</button>
   </div>
 
@@ -570,16 +571,15 @@ footer a{font-weight:600}
 
       <div class="f-group">
         <h3>Location</h3>
-        <select class="f-input" id="city" aria-label="Filter by city"><option value="">All cities</option></select>
-        <input class="f-input" id="loc" type="search" placeholder="e.g. New York, remote…" autocomplete="off" aria-label="Filter by location">
+        <select class="f-input" id="city" aria-label="Filter by India location"><option value="">All locations</option></select>
       </div>
 
       <div class="f-group">
         <h3>Remote location</h3>
-        <select class="f-input" id="remoteScope" aria-label="Remote job location"><option value="any">Any location</option><option value="india">Remote in India</option><option value="world">Remote outside India</option></select>
+        <select class="f-input" id="remoteScope" aria-label="Filter remote jobs by country"><option value="any">All remote locations</option><option value="remote:all">Any remote job</option></select>
       </div>
 
-      <div class="f-group"><label class="toggle-row">Startup openings <span class="switch"><input type="checkbox" id="startups"><span class="sl"></span></span></label></div>
+      <div class="f-group"><label class="toggle-row">Startup openings <span class="startup-count" id="startupCount">0</span><span class="switch"><input type="checkbox" id="startups"><span class="sl"></span></span></label></div>
 
       <div class="f-group">
         <h3>Posted within</h3>
@@ -600,7 +600,7 @@ footer a{font-weight:600}
       <div class="star-card">
         <div class="star-card-t">★ Enjoying JobsBuddy?</div>
         <p>It&apos;s free and open-source. A star helps other students discover it.</p>
-        <a class="btn btn-solid" href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">Star the repo</a>
+        <a class="btn btn-solid" href="https://github.com/GaneshReddy08/JobsBuddy" target="_blank" rel="noopener">Star the repo</a>
       </div>
     </aside>
 
@@ -628,7 +628,7 @@ footer a{font-weight:600}
   <footer>
     Last updated %%NOW%%. Built with a free Python scraper + GitHub Actions — no paid APIs.<br>
     Sourced from connected public ATS feeds. Recruiter emails appear only when a posting publishes one.
-    &nbsp;·&nbsp; <a href="https://github.com/SIDDARTHAREDDY8/JobsBuddy" target="_blank" rel="noopener">View source on GitHub</a>
+    &nbsp;·&nbsp; <a href="https://github.com/GaneshReddy08/JobsBuddy" target="_blank" rel="noopener">View source on GitHub</a>
   </footer>
 </div>
 
@@ -668,7 +668,7 @@ function esc(s){
 
 var state = {
   q: "", exp: DEFAULT_EXP, companies: null, // null = all selected
-  loc: "", posted: "any", remote: false, city: "", remoteScope: "any", startups: false, roleType: "all",
+  posted: "any", remote: false, city: "", remoteScope: "any", startups: false, roleType: "all",
   sort: "new", shown: PAGE_SIZE
 };
 
@@ -684,7 +684,6 @@ function readHash(){
     ex.forEach(function(c){ set.delete(c); });
     if(set.size && set.size < COMPANIES.length) state.companies = set;
   }
-  if(p.get("loc")) state.loc = p.get("loc");
   if(VALID.posted.indexOf(p.get("posted")) > -1) state.posted = p.get("posted");
   state.remote = p.get("remote") === "1";
   state.city = p.get("city") || ""; state.remoteScope = p.get("rs") || "any"; state.startups = p.get("startup") === "1";
@@ -700,7 +699,6 @@ function writeHash(){
     var ex = COMPANIES.filter(function(c){ return !state.companies.has(c); });
     ex.forEach(function(c){ p.append("cox", c); });
   }
-  if(state.loc) p.set("loc", state.loc);
   if(state.posted !== "any") p.set("posted", state.posted);
   if(state.remote) p.set("remote", "1");
   if(state.city) p.set("city", state.city); if(state.remoteScope !== "any") p.set("rs", state.remoteScope); if(state.startups) p.set("startup", "1");
@@ -728,14 +726,14 @@ function matches(j){
   var roleTests = {backend:/back.?end|server.?side/,frontend:/front.?end|ui engineer/,fullstack:/full.?stack/,ai:/\b(ai|ml|machine learning|artificial intelligence|gen.?ai|llm)\b/,data:/data engineer|analytics engineer|data platform/,devops:/devops|sre|site reliability|cloud|platform engineer/,mobile:/android|ios|mobile engineer/,qa:/\bqa\b|quality assurance|test automation|automation engineer/,security:/security engineer|application security|product security/};
   if(state.roleType !== "all" && (!roleTests[state.roleType] || !roleTests[state.roleType].test(title))) return false;
   if(state.companies && !state.companies.has(j.company)) return false;
-  if(state.loc && (j.location || "").toLowerCase().indexOf(state.loc) < 0) return false;
-  if(state.city && (j.location || "").toLowerCase().indexOf(state.city) < 0) return false;
   var remoteLoc = (j.location || "").toLowerCase();
-  if(state.remoteScope !== "any" && remoteLoc.indexOf("remote") < 0) return false;
-  if(state.remoteScope === "india" && !/india|\bin\b|bengaluru|bangalore|hyderabad|chennai|mumbai|pune|delhi|gurugram|noida/.test(remoteLoc)) return false;
-  if(state.remoteScope === "world" && /india|bengaluru|bangalore|hyderabad|chennai|mumbai|pune|delhi|gurugram|noida/.test(remoteLoc)) return false;
-  if(state.remoteScope.indexOf("country:") === 0 && remoteLoc.indexOf(state.remoteScope.slice(8)) < 0) return false;
-  if(state.startups && !STARTUPS.has((j.company || "").toLowerCase())) return false;
+  if(state.city === "india" && !isIndiaOffice(remoteLoc)) return false;
+  if(state.city && state.city !== "india" && state.city !== "other-india" && indiaCity(remoteLoc) !== state.city) return false;
+  if(state.city === "other-india" && (!isIndiaOffice(remoteLoc) || indiaCity(remoteLoc))) return false;
+  if(state.remoteScope === "remote:all" && remoteLoc.indexOf("remote") < 0) return false;
+  if(state.remoteScope.indexOf("country:") === 0 && remoteCountry(remoteLoc) !== state.remoteScope.slice(8)) return false;
+  if(state.remoteScope.indexOf("region:") === 0){var selectedRegion=state.remoteScope.slice(7);if(selectedRegion==="Unspecified" ? (remoteCountry(remoteLoc)!=="" || remoteRegion(remoteLoc)!=="") : remoteRegion(remoteLoc)!==selectedRegion) return false;}
+  if(state.startups && !isStartup(j.company)) return false;
   var lim = POSTED_LIM[state.posted];
   if(lim != null){
     if(j.age_days == null || j.age_days > lim) return false;
@@ -834,9 +832,47 @@ function closeModal(){
 
 /* ---- sidebar: company checkboxes ---- */
 var coCounts = {};
-var STARTUPS = new Set(["razorpay","cred","meesho","swiggy","zepto","phonepe","groww"," meesho","sharechat","postman","freshworks"," BrowserStack"].map(function(x){return x.trim().toLowerCase();}));
+var STARTUPS = new Set(["razorpay","cred","meesho","swiggy","zepto","phonepe","groww","sharechat","postman","freshworks","browserstack","inmobi","flipkart","zerodha","paytm","zomato","ola","oyo","urban company","delhivery","ofbusiness","acko","juspay","uniphore","chargebee","druva","wingify","hasura","mindtickle","sarvam ai","slice","jupiter","dream11","nykaa","lenskart","boat","curefit","cult.fit","mamaearth","caratlane","policybazaar","practo","browserstack","webengage","innovaccer","smallcase","porter","spinny","cars24","bharatpe","unacademy","upgrad","elasticrun","blackbuck","kapiva","razorpayx","postman","scale ai","perplexity","replit","glean","anthropic","openai","hugging face","huggingface","ramp","brex","mercury","vanta","linear","webflow","notion","airbyte","fivetran","baseten","modal","replicate","together ai","fireworks ai","sierra","decagon","harvey","elevenlabs","runway","pika","luma ai","suno","mistral","cohere","weaviate","qdrant","chroma","pinecone","neon","supabase","planetscale","materialize","temporal","prefect","dagster","astronomer","tecton","chronosphere","cribl","vercel","netlify","render","railway","sourcegraph","warp","raycast","codeium","tabnine","sentry","launchdarkly","tailscale","orca security","aqua security","sysdig","vanta","drata","semgrep","socket","snyk","wiz","island","cyera","persona","whatnot","stockx","faire","patreon","substack","framer","loom","miro","airtable","calendly","gusto","rippling","deel","ironclad","front","pylon","clari","zipline","skydio","figure","nuro","applied intuition","waymo","zoox","cruise","aurora innovation","wing","canva","notion","databricks","coinbase","robinhood","airbnb","doordash","instacart","reddit","brex","gitlab","cloudflare","samsara","affirm","discord","pinterest","block","lyft"].map(function(x){return x.trim().toLowerCase();}));
 JOBS.forEach(function(j){ if(j.company) coCounts[j.company] = (coCounts[j.company]||0) + 1; });
-function populateCities(){ var seen = {}, countries = {}; JOBS.forEach(function(j){ var location=j.location||""; location.split(/[;,]/).forEach(function(part){ var c=part.trim(); if(c && !/remote|india|multiple locations/i.test(c) && c.length<35) seen[c]=1; }); if(/remote/i.test(location)){ var remotePart=location.split(/remote/i).slice(1).join(" ").replace(/[()\[\]]/g," ").replace(/^\s*[-,:|]+\s*/,"").trim(); if(remotePart && remotePart.length<45) countries[remotePart]=1; } }); var sel=document.getElementById('city'); Object.keys(seen).sort().forEach(function(c){var o=document.createElement('option');o.value=c.toLowerCase();o.textContent=c;sel.appendChild(o);}); var rs=document.getElementById('remoteScope'); Object.keys(countries).sort().forEach(function(c){var o=document.createElement('option');o.value='country:'+c.toLowerCase();o.textContent='Remote: '+c;rs.appendChild(o);}); }
+var INDIA_METROS = ["Ahmedabad","Bengaluru","Bhubaneswar","Chandigarh","Chennai","Coimbatore","Delhi NCR","Gurugram","Hyderabad","Indore","Jaipur","Kochi","Kolkata","Lucknow","Mumbai","Nagpur","Noida","Pune","Surat","Thiruvananthapuram","Vadodara","Visakhapatnam"];
+var CITY_ALIASES = {
+  "Ahmedabad":["ahmedabad","gandhinagar","sanand"], "Bengaluru":["bengaluru","bangalore","whitefield","electronic city","maruthi onyx","hosur road"],
+  "Bhubaneswar":["bhubaneswar"], "Chandigarh":["chandigarh","mohali","panchkula"], "Chennai":["chennai"], "Coimbatore":["coimbatore"],
+  "Delhi NCR":["new delhi","delhi","ncr","faridabad"], "Gurugram":["gurugram","gurgaon"], "Hyderabad":["hyderabad","hitech city","hi-tech city","hitec city","gachibowli","nanakramguda","madhapur","kondapur","telangana"],
+  "Indore":["indore"], "Jaipur":["jaipur"], "Kochi":["kochi","cochin"], "Kolkata":["kolkata","calcutta"], "Lucknow":["lucknow"],
+  "Mumbai":["mumbai","navi mumbai","thane"], "Nagpur":["nagpur"], "Noida":["noida"], "Pune":["pune","pimpri","chinchwad"], "Surat":["surat"],
+  "Thiruvananthapuram":["thiruvananthapuram","trivandrum"], "Vadodara":["vadodara","baroda"], "Visakhapatnam":["visakhapatnam","vizag"]
+};
+var REMOTE_COUNTRIES = [
+  ["India",["india","remote in india","remote in in"]],["United States",["united states","usa","u.s.","u.s.a.","remote us","remote - us","remote usa","- us","in us"]],
+  ["Canada",["canada","remote (canada)","remote canada"]],["United Kingdom",["united kingdom","uk","u.k.","britain"]],["Australia",["australia"]],
+  ["Germany",["germany"]],["Ireland",["ireland"]],["Japan",["japan"]],["Singapore",["singapore"]],["South Korea",["south korea"]],
+  ["Mexico",["mexico"]],["Argentina",["argentina"]],["Brazil",["brazil"]],["Spain",["spain"]],["Portugal",["portugal"]],
+  ["France",["france"]],["Netherlands",["netherlands"]],["Switzerland",["switzerland"]],["United Arab Emirates",["uae","united arab emirates"]],
+  ["New Zealand",["new zealand"]],["Israel",["israel"]],["Poland",["poland"]],["South Africa",["south africa"]]
+];
+var REMOTE_REGIONS = [["Worldwide",["worldwide","anywhere","global"]],["APAC",["apac","asia pacific"]],["EMEA",["emea"]],["Europe",["europe"]],["Latin America",["latin america","latam"]],["Americas",["americas"]]];
+function hasAny(text, terms){return terms.some(function(term){return text.indexOf(term)>=0;});}
+function indiaCity(location){var s=(location||"").toLowerCase(); if(/remote/.test(s)) return ""; var names=Object.keys(CITY_ALIASES); for(var i=0;i<names.length;i++){if(hasAny(s,CITY_ALIASES[names[i]])) return names[i];} return "";}
+function isIndiaOffice(location){var s=(location||"").toLowerCase();return !/remote/.test(s) && (indiaCity(s)!=="" || /\bindia\b|,\s*in\b|\bin\s+\d{5}\b/.test(s));}
+function remoteCountry(location){var s=(location||"").toLowerCase();if(s.indexOf("remote")<0)return "";for(var i=0;i<REMOTE_COUNTRIES.length;i++){if(hasAny(s,REMOTE_COUNTRIES[i][1])) return REMOTE_COUNTRIES[i][0];}return "";}
+function remoteRegion(location){var s=(location||"").toLowerCase();if(s.indexOf("remote")<0)return "";for(var i=0;i<REMOTE_REGIONS.length;i++){if(hasAny(s,REMOTE_REGIONS[i][1])) return REMOTE_REGIONS[i][0];}return "";}
+function isStartup(company){var c=(company||"").toLowerCase().replace(/\s+/g," ").trim();return STARTUPS.has(c);}
+function populateCities(){
+  var cityCounts={}; INDIA_METROS.forEach(function(c){cityCounts[c]=0;}); var indiaCount=0, otherIndia=0, countryCounts={}, regionCounts={}, unknownRemote=0, remoteCount=0, startupCount=0;
+  JOBS.forEach(function(j){var loc=(j.location||"").toLowerCase(); if(isIndiaOffice(loc)){indiaCount++;var city=indiaCity(loc);if(city)cityCounts[city]=(cityCounts[city]||0)+1;else otherIndia++;}
+    if(loc.indexOf("remote")>=0){remoteCount++;var country=remoteCountry(loc),region=remoteRegion(loc);if(country)countryCounts[country]=(countryCounts[country]||0)+1;else if(region)regionCounts[region]=(regionCounts[region]||0)+1;else unknownRemote++;}
+    if(isStartup(j.company)) startupCount++;
+  });
+  var sel=document.getElementById('city'); var india=document.createElement('option');india.value='india';india.textContent='India · all cities ('+indiaCount+')';sel.appendChild(india);
+  INDIA_METROS.forEach(function(c){var o=document.createElement('option');o.value=c;o.textContent=c+' ('+(cityCounts[c]||0)+')';sel.appendChild(o);});
+  if(otherIndia){var other=document.createElement('option');other.value='other-india';other.textContent='Other India locations ('+otherIndia+')';sel.appendChild(other);}
+  var rs=document.getElementById('remoteScope');var all=document.createElement('option');all.value='remote:all';all.textContent='All remote jobs ('+remoteCount+')';rs.appendChild(all);
+  Object.keys(countryCounts).sort(function(a,b){return a.localeCompare(b);}).forEach(function(c){var o=document.createElement('option');o.value='country:'+c;o.textContent='Remote · '+c+' ('+countryCounts[c]+')';rs.appendChild(o);});
+  Object.keys(regionCounts).sort().forEach(function(c){var o=document.createElement('option');o.value='region:'+c;o.textContent='Remote · '+c+' ('+regionCounts[c]+')';rs.appendChild(o);});
+  if(unknownRemote){var u=document.createElement('option');u.value='region:Unspecified';u.textContent='Remote · location unspecified ('+unknownRemote+')';rs.appendChild(u);}
+  document.getElementById('startupCount').textContent=String(startupCount);
+}
 
 function renderCompanies(filter){
   var list = document.getElementById('coList');
@@ -865,7 +901,6 @@ function pillVal(groupId, name){
 
 function syncUIFromState(){
   document.getElementById('q').value = state.q;
-  document.getElementById('loc').value = state.loc;
   document.getElementById('remote').checked = state.remote;
   document.getElementById('city').value = state.city; document.getElementById('remoteScope').value = state.remoteScope; document.getElementById('startups').checked = state.startups;
   document.getElementById('roleType').value = state.roleType;
@@ -877,7 +912,7 @@ function syncUIFromState(){
 
 function clearAll(){
   state.q = ""; state.exp = DEFAULT_EXP; state.companies = null;
-  state.loc = ""; state.posted = "any";
+  state.posted = "any";
   state.remote = false; state.city = ""; state.remoteScope = "any"; state.startups = false; state.roleType = "all"; state.sort = "new";
   document.getElementById('coSearch').value = "";
   syncUIFromState();
@@ -889,13 +924,6 @@ document.getElementById('q').addEventListener('input', function(e){
   clearTimeout(qTimer);
   qTimer = setTimeout(function(){
     state.q = e.target.value.trim().toLowerCase();
-    applyFilters();
-  }, 160);
-});
-document.getElementById('loc').addEventListener('input', function(e){
-  clearTimeout(qTimer);
-  qTimer = setTimeout(function(){
-    state.loc = e.target.value.trim().toLowerCase();
     applyFilters();
   }, 160);
 });
