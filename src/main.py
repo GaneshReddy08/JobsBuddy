@@ -77,11 +77,18 @@ def main():
     # actually-outdated jobs. Incompatible with a freshness-first board.
     # Reverse-discovery: Workable's cross-company global search surfaces jobs from
     # unknown employers we've never listed (the "found-only-on-LinkedIn" companies).
-    from scrape import scrape_workable_global
+    from scrape import (scrape_workable_global, scrape_remoteok,
+                        scrape_remotelanders)
     gj = scrape_workable_global()
     print(f"   + {len(gj)} jobs from Workable global discovery "
           f"({len({j['company'] for j in gj})} unknown companies)")
     jobs += gj
+    remoteok_jobs = scrape_remoteok()
+    print(f"   + {len(remoteok_jobs)} jobs from Remote OK public feed")
+    jobs += remoteok_jobs
+    lander_jobs = scrape_remotelanders()
+    print(f"   + {len(lander_jobs)} jobs from Remote Landers ATS feed")
+    jobs += lander_jobs
     print(f"   total raw jobs: {len(jobs)}")
 
     print("② Filtering to my profile (role + visa + location; YOE tagged, not filtered)...")
@@ -142,6 +149,9 @@ def main():
             archive[k]["fresh"] = j.get("fresh", False)
             archive[k]["yoe_min"] = j.get("yoe_min")
             archive[k]["yoe_max"] = j.get("yoe_max")
+            for field in ("source", "source_url"):
+                if j.get(field):
+                    archive[k][field] = j[field]
         else:
             j["first_seen"] = today
             j["last_seen"] = today

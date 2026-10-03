@@ -506,11 +506,8 @@ def scrape_workable(slug, company):
 
 # ---------- Workable GLOBAL (reverse discovery across ALL Workable companies) ----------
 # Workable runs a public, cross-company job search at jobs.workable.com. Unlike the
-# per-company adapters, this surfaces jobs from employers we've NEVER listed — the
-# unknown, "found-only-on-LinkedIn" companies. We page the global search for our role
-# terms (US only) and feed the jobs straight in. Their apply slug isn't exposed, but
-# the view URL is itself a working apply link, and the payload carries everything the
-# pipeline needs (company, title, location, description, created date).
+# per-company adapters, this surfaces jobs from employers we've NEVER listed. Search
+# globally; the India/remote location rules downstream keep relevant postings.
 _WG_TERMS = ["software engineer", "data engineer", "machine learning engineer",
              "data analyst", "full stack developer", "backend engineer"]
 _WG_PAGES = 12   # ~20 jobs/page; relevance-ranked, ~21% land inside the 7-day window
@@ -520,9 +517,7 @@ def scrape_workable_global(terms=None, pages=_WG_PAGES):
     terms = terms or _WG_TERMS
     out, seen = [], set()
     for term in terms:
-        base = ("https://jobs.workable.com/api/v1/jobs?query="
-                + urllib.parse.quote(term) + "&location="
-                + urllib.parse.quote("United States"))
+        base = "https://jobs.workable.com/api/v1/jobs?query=" + urllib.parse.quote(term)
         token = None
         for _ in range(pages):
             url = base + (f"&pageToken={token}" if token else "")
@@ -555,6 +550,96 @@ def scrape_workable_global(terms=None, pages=_WG_PAGES):
             token = data.get("nextPageToken")
             if not token:
                 break
+    return out
+
+
+# ---------- Remote OK public job feed ----------
+def _remoteok_location(job):
+    loc = (job.get("location") or "").strip()
+    if loc:
+        return loc if "remote" in loc.lower() else f"Remote - {loc}"
+    tags = [str(t).strip() for t in (job.get("tags") or []) if t]
+    normalized = {t.lower() for t in tags}
+    if normalized.intersection({"india", "india only", "remote india"}):
+        return "Remote - India"
+    if normalized.intersection({"usa", "us only", "usa only", "united states"}):
+        return "Remote - United States"
+    if "canada" in normalized:
+        return "Remote - Canada"
+    if normalized.intersection({"uk", "uk only", "united kingdom"}):
+        return "Remote - United Kingdom"
+    if normalized.intersection({"worldwide", "anywhere", "global"}):
+        return "Remote - Worldwide"
+    return "Remote - location unspecified"
+
+
+def scrape_remoteok():
+    """Read Remote OK's public JSON feed; include only role matches downstream."""
+    try:
+        data = _get_json("https://remoteok.com/api")
+    except Exception as e:
+        print(f"   Remote OK feed unavailable ({type(e).__name__})")
+        return []
+    out = []
+    # The first array item is API metadata/legal text, not a job.
+    for j in data if isinstance(data, list) else []:
+        if not isinstance(j, dict) or not j.get("position"):
+            continue
+        source_url = j.get("url") or j.get("apply_url") or ""
+        out.append({
+            "company": j.get("company", ""),
+            "title": j.get("position", ""),
+            "location": _remoteok_location(j),
+            "url": j.get("apply_url") or source_url,
+            "source_url": source_url,
+            "source": "remoteok",
+            "description": _strip_html(j.get("description", "")),
+            "contact_email": _public_contact_email(j.get("description", "")),
+            "posted_at": j.get("date", ""),
+        })
+    return out
+
+
+# ---------- Remote Landers public ATS-direct remote feed ----------
+def scrape_remotelanders(max_pages=10):
+    """Pull fresh engineering remote jobs from Remote Landers' public API.
+
+    The feed requires visible source attribution, rendered in the job card and
+    the page footer. Keep requests to the API's documented 10-minute refresh.
+    """
+    out = []
+    for page in range(1, max_pages + 1):
+        try:
+            data = _get_json(
+                "https://remotelanders.com/api/jobs?"
+                + urllib.parse.urlencode({"category": "Engineering", "limit": 100, "page": page})
+            )
+        except Exception as e:
+            print(f"   Remote Landers feed stopped at page {page} ({type(e).__name__})")
+            break
+        jobs = data.get("jobs", []) if isinstance(data, dict) else []
+        if not jobs:
+            break
+        for j in jobs:
+            company = j.get("company", "")
+            title = j.get("title", "")
+            if not company or not title:
+                continue
+            loc = (j.get("location") or "Worldwide").strip()
+            if "remote" not in loc.lower():
+                loc = f"Remote - {loc}"
+            out.append({
+                "company": company,
+                "title": title,
+                "location": loc,
+                "url": j.get("applyUrl") or j.get("url", ""),
+                "source_url": j.get("url", ""),
+                "source": "remotelanders",
+                "description": "",
+                "posted_at": j.get("postedDate", ""),
+            })
+        if page * 100 >= int(data.get("total", 0) or 0):
+            break
     return out
 
 

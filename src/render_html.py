@@ -125,12 +125,16 @@ def _default_exp_preset(profile):
 def _job_payload(j, today, slug=""):
     kind, slabel = _sponsor_badge(j)
     skills = j.get("matched_skills") or []
+    source = j.get("source") or ""
+    source_label = {"remoteok": "Remote OK", "remotelanders": "Remote Landers"}.get(source, "")
     return {
         "title": j.get("title", ""),
         "company": j.get("company", ""),
         "slug": slug,
         "location": j.get("location", ""),
         "url": j.get("url", ""),
+        "source_label": source_label,
+        "source_url": j.get("source_url", ""),
         "contact_email": j.get("contact_email", ""),
         "description": j.get("description", "") or "",
         "age_days": j.get("age_days"),
@@ -232,7 +236,8 @@ def _render_company_page(company, slug, roles, today):
             f'<h3 class="job-title">{_esc(j.get("title"))}</h3>'
             f'<div class="job-sub">{_esc(j.get("location"))}</div>'
             f'<div class="meta">{_esc(_py_meta_line(j))}</div>'
-            f'</div><div class="card-side">{new}{apply}</div></div></article>')
+            + (f'<a class="job-source" href="{_esc(j.get("source_url"))}" target="_blank" rel="noopener noreferrer">Via {_esc("Remote OK" if j.get("source") == "remoteok" else "Remote Landers")}</a>' if j.get("source") in ("remoteok", "remotelanders") and j.get("source_url") else "")
+            + f'</div><div class="card-side">{new}{apply}</div></div></article>')
     sub = sline or "Open roles"
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -504,6 +509,8 @@ main.results{flex:1;min-width:0}
 .modal h2{font-size:22px;letter-spacing:-.02em;padding-right:36px}
 .modal .m-sub{color:var(--ink2);font-size:14px;margin:6px 0 4px}
 .modal .m-meta{display:flex;align-items:center;gap:10px;margin:12px 0 4px;flex-wrap:wrap}
+.job-source{display:inline-block;color:var(--mut);font-size:11.5px;margin-top:5px}
+.job-source a{color:var(--ink2);text-underline-offset:2px}
 .m-close{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:1.5px solid var(--ink);background:#fff;font-size:16px;cursor:pointer;line-height:1}
 .m-close:hover{background:var(--ink);color:#fff}
 .m-desc{white-space:pre-wrap;font-size:14.5px;color:var(--ink2);margin:16px 0;max-height:46vh;overflow-y:auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}
@@ -658,6 +665,8 @@ footer a{font-weight:600}
   <footer>
     Last updated %%NOW%%. Built with a free Python scraper + GitHub Actions — no paid APIs.<br>
     Sourced from connected public ATS feeds. Recruiter emails appear only when a posting publishes one.
+    &nbsp;·&nbsp; Remote OK jobs via <a href="https://remoteok.com" target="_blank" rel="noopener">Remote OK</a>.
+    Remote Landers jobs via <a href="https://remotelanders.com" target="_blank" rel="noopener">Remote Landers</a>.
     &nbsp;·&nbsp; <a href="https://github.com/GaneshReddy08/JobsBuddy" target="_blank" rel="noopener">View source on GitHub</a>
   </footer>
 </div>
@@ -810,6 +819,7 @@ function cardHtml(j, idx){
       '<div class="job-sub"><a class="co-link" href="c/' + esc(j.slug) + '.html">' +
         esc(j.company) + '</a> · ' + esc(j.location) + '</div>' +
       '<div class="meta">' + esc(metaLine(j)) + '</div>' +
+      (j.source_label && j.source_url ? '<a class="job-source" href="' + esc(j.source_url) + '" target="_blank" rel="noopener noreferrer">Via ' + esc(j.source_label) + '</a>' : '') +
     '</div><div class="card-side">' + pill + apply + '</div></div></article>';
 }
 
@@ -854,6 +864,7 @@ function openModal(j){
       (j.is_new ? '<span class="tag tag-new">NEW</span>' : '') +
       '<span class="meta" style="margin-top:0">' + esc(metaLine(j)) + '</span></div>' +
     (skills ? '<div class="m-skills">' + skills + '</div>' : '') +
+    (j.source_label && j.source_url ? '<a class="job-source" href="' + esc(j.source_url) + '" target="_blank" rel="noopener noreferrer">Original posting at ' + esc(j.source_label) + '</a>' : '') +
     '<div class="m-desc">' + esc(j.description || "No description provided.") + '</div>' +
     '<div class="m-foot">' + apply +
       (j.contact_email ? '<a class="note" href="mailto:' + esc(j.contact_email) + '">Recruiter: ' + esc(j.contact_email) + '</a>' : '<span class="note">Recruiter email is not listed on this posting.</span>') + '</div>';
