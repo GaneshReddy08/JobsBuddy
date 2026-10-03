@@ -4,6 +4,6 @@ I'm an international student. If you are too, you know the feeling: you spend ho
 
 I built JobsBuddy to fix the information part. It scans thousands of tech companies every few hours and lists their US-based tech roles — no security clearance, every experience level. Roles at companies with a real visa-sponsorship history are labeled, so you can spot them first. Free, for all of us.
 
-### 👉 [The live job board](https://siddarthareddy8.github.io/JobsBuddy/)
+### 👉 [The live job board](https://ganeshreddy08.github.io/JobsBuddy/)
 
 All the best with the hunt. You've got this. 🙌
