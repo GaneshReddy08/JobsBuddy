@@ -1,0 +1,1958 @@
+{
+ "stripe": {
+  "cases": 53,
+  "cert": 98.1
+ },
+ "databricks": {
+  "cases": 67,
+  "cert": 100.0
+ },
+ "coinbase": {
+  "cases": 27,
+  "cert": 100.0
+ },
+ "robinhood": {
+  "cases": 68,
+  "cert": 97.1
+ },
+ "airbnb": {
+  "cases": 48,
+  "cert": 97.9
+ },
+ "doordash": {
+  "cases": 104,
+  "cert": 100.0
+ },
+ "reddit": {
+  "cases": 27,
+  "cert": 96.3
+ },
+ "dropbox": {
+  "cases": 14,
+  "cert": 42.9
+ },
+ "cloudflare": {
+  "cases": 26,
+  "cert": 92.3
+ },
+ "samsara": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "affirm": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "discord": {
+  "cases": 15,
+  "cert": 40.0
+ },
+ "pinterest": {
+  "cases": 77,
+  "cert": 85.7
+ },
+ "block": {
+  "cases": 30,
+  "cert": 100.0
+ },
+ "lyft": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "ramp": {
+  "cases": 10,
+  "cert": 60.0
+ },
+ "notion": {
+  "cases": 10,
+  "cert": 80.0
+ },
+ "netflix": {
+  "cases": 80,
+  "cert": 100.0
+ },
+ "palantir": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "nvidia": {
+  "cases": 460,
+  "cert": 99.6
+ },
+ "salesforce": {
+  "cases": 442,
+  "cert": 85.3
+ },
+ "adobe": {
+  "cases": 134,
+  "cert": 100.0
+ },
+ "autodesk": {
+  "cases": 32,
+  "cert": 100.0
+ },
+ "workday": {
+  "cases": 53,
+  "cert": 100.0
+ },
+ "datadog": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "mongodb": {
+  "cases": 44,
+  "cert": 81.8
+ },
+ "twilio": {
+  "cases": 35,
+  "cert": 91.4
+ },
+ "openai": {
+  "cases": 23,
+  "cert": 95.7
+ },
+ "verkada": {
+  "cases": 14,
+  "cert": 85.7
+ },
+ "twitch": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "gemini": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "anthropic": {
+  "cases": 48,
+  "cert": 100.0
+ },
+ "spotify": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "veeva": {
+  "cases": 32,
+  "cert": 100.0
+ },
+ "roblox": {
+  "cases": 49,
+  "cert": 100.0
+ },
+ "chime": {
+  "cases": 31,
+  "cert": 100.0
+ },
+ "sigma computing": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "roku": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "deel": {
+  "cases": 13,
+  "cert": 92.3
+ },
+ "visa": {
+  "cases": 101,
+  "cert": 98.0
+ },
+ "servicetitan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "scale ai": {
+  "cases": 11,
+  "cert": 72.7
+ },
+ "valon": {
+  "cases": 16,
+  "cert": 87.5
+ },
+ "appian": {
+  "cases": 15,
+  "cert": 80.0
+ },
+ "torc robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "citizen health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "solace health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "axon": {
+  "cases": 39,
+  "cert": 84.6
+ },
+ "trend health partners": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "equip health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "accenture": {
+  "cases": 592,
+  "cert": 99.2
+ },
+ "path robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "garner health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "bridgewater associates": {
+  "cases": 14,
+  "cert": 78.6
+ },
+ "lumin digital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "point72": {
+  "cases": 18,
+  "cert": 61.1
+ },
+ "jane street": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "weave": {
+  "cases": 19,
+  "cert": 100.0
+ },
+ "astera labs": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "assort health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "zoox": {
+  "cases": 17,
+  "cert": 94.1
+ },
+ "silna health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "tenstorrent": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "anaplan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "cobalt robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "box": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "alten technology": {
+  "cases": 14,
+  "cert": 92.9
+ },
+ "schonfeld": {
+  "cases": 11,
+  "cert": 90.9
+ },
+ "lucid": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "amae health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "visual concepts": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "the allen institute for ai": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "sony interactive entertainment": {
+  "cases": 40,
+  "cert": 65.0
+ },
+ "confluent": {
+  "cases": 34,
+  "cert": 97.1
+ },
+ "shields health solutions": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "link": {
+  "cases": 16,
+  "cert": 62.5
+ },
+ "lucid motors": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "matic": {
+  "cases": 11,
+  "cert": 45.5
+ },
+ "tinder": {
+  "cases": 22,
+  "cert": 86.4
+ },
+ "crusoe": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "heidi health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "american institutes for research": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "redwood materials": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "good american": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "mca connect": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "starpath robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "remodel health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "archer": {
+  "cases": 18,
+  "cert": 94.4
+ },
+ "collaborative robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "saviynt": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "snowflake": {
+  "cases": 107,
+  "cert": 88.8
+ },
+ "planet": {
+  "cases": 17,
+  "cert": 100.0
+ },
+ "dyna robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "neon health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "astro mechanica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "open farm pet": {
+  "cases": 44,
+  "cert": 95.5
+ },
+ "pure storage": {
+  "cases": 37,
+  "cert": 89.2
+ },
+ "iwoca": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "diligent robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "upgrade": {
+  "cases": 13,
+  "cert": 76.9
+ },
+ "angle health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "titan": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "agwest farm credit": {
+  "cases": 44,
+  "cert": 95.5
+ },
+ "clipboard health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "smartsheet": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "omnicom health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "the trade desk": {
+  "cases": 14,
+  "cert": 85.7
+ },
+ "galileo financial technologies": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "butternut box": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "moss": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "resolve": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "conversica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "omada health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "sophos": {
+  "cases": 13,
+  "cert": 92.3
+ },
+ "icon": {
+  "cases": 14,
+  "cert": 71.4
+ },
+ "kodiak robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "pearl health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "trackforce": {
+  "cases": 175,
+  "cert": 100.0
+ },
+ "maybell quantum industries": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "salvo health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "woven": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "avidxchange": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "civitech": {
+  "cases": 15,
+  "cert": 80.0
+ },
+ "interwell health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "samsung": {
+  "cases": 40,
+  "cert": 92.5
+ },
+ "hone health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "motive": {
+  "cases": 40,
+  "cert": 72.5
+ },
+ "zus health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "wayve": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "paretohealth": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "hp iq": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "zscaler": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "courier health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "istari digital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "capital technology group": {
+  "cases": 150,
+  "cert": 100.0
+ },
+ "mcg health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "10x genomics": {
+  "cases": 18,
+  "cert": 33.3
+ },
+ "uber freight": {
+  "cases": 36,
+  "cert": 100.0
+ },
+ "thinkingbox": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "eli health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "leland": {
+  "cases": 124,
+  "cert": 95.2
+ },
+ "rugged robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "ivx health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "charge robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "amp robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "lucid bots": {
+  "cases": 143,
+  "cert": 96.5
+ },
+ "phia": {
+  "cases": 46,
+  "cert": 84.8
+ },
+ "daniels health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "seamless.ai": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "locus robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "the health management academy": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "parachute health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "gecko robotics": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "layer health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "labelbox": {
+  "cases": 29,
+  "cert": 100.0
+ },
+ "xebia": {
+  "cases": 26,
+  "cert": 84.6
+ },
+ "super": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "astera": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "plusai": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "cohere health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "nium": {
+  "cases": 25,
+  "cert": 68.0
+ },
+ "candid health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "leidos": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "centene": {
+  "cases": 35,
+  "cert": 80.0
+ },
+ "general motors": {
+  "cases": 189,
+  "cert": 98.4
+ },
+ "applied materials": {
+  "cases": 17,
+  "cert": 100.0
+ },
+ "cox automotive": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "humana": {
+  "cases": 80,
+  "cert": 97.5
+ },
+ "capital one": {
+  "cases": 150,
+  "cert": 100.0
+ },
+ "travelers": {
+  "cases": 17,
+  "cert": 100.0
+ },
+ "hp": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "insulet corporation": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "arrow electronics": {
+  "cases": 19,
+  "cert": 89.5
+ },
+ "relx": {
+  "cases": 52,
+  "cert": 100.0
+ },
+ "jabil": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "microchip technology": {
+  "cases": 18,
+  "cert": 66.7
+ },
+ "nordstrom": {
+  "cases": 42,
+  "cert": 95.2
+ },
+ "analog devices": {
+  "cases": 53,
+  "cert": 100.0
+ },
+ "logitech": {
+  "cases": 15,
+  "cert": 80.0
+ },
+ "north": {
+  "cases": 106,
+  "cert": 93.4
+ },
+ "expedia group": {
+  "cases": 96,
+  "cert": 100.0
+ },
+ "paypal": {
+  "cases": 225,
+  "cert": 84.0
+ },
+ "cvs health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "red hat": {
+  "cases": 30,
+  "cert": 93.3
+ },
+ "johnson & johnson": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "truist": {
+  "cases": 79,
+  "cert": 97.5
+ },
+ "hewlett packard (hp)": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "lexisnexis risk solutions": {
+  "cases": 17,
+  "cert": 100.0
+ },
+ "pnc financial services": {
+  "cases": 31,
+  "cert": 96.8
+ },
+ "ncr voyix": {
+  "cases": 24,
+  "cert": 87.5
+ },
+ "t-mobile": {
+  "cases": 126,
+  "cert": 89.7
+ },
+ "yahoo": {
+  "cases": 58,
+  "cert": 93.1
+ },
+ "genuine parts company": {
+  "cases": 27,
+  "cert": 59.3
+ },
+ "rochester regional health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "worldpay": {
+  "cases": 36,
+  "cert": 91.7
+ },
+ "micron technology": {
+  "cases": 80,
+  "cert": 96.2
+ },
+ "rockwell automation": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "comcast": {
+  "cases": 162,
+  "cert": 82.1
+ },
+ "unisys": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "johnson controls": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "medtronic": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "vanguard": {
+  "cases": 48,
+  "cert": 100.0
+ },
+ "ou health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "avis budget group": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "motorola": {
+  "cases": 26,
+  "cert": 92.3
+ },
+ "pennsylvania state university": {
+  "cases": 74,
+  "cert": 62.2
+ },
+ "state street": {
+  "cases": 98,
+  "cert": 100.0
+ },
+ "highmark health": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "great american insurance company": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "the university of kansas hospital": {
+  "cases": 18,
+  "cert": 55.6
+ },
+ "ann & robert h. lurie children\u2019s hospital of chicago": {
+  "cases": 35,
+  "cert": 97.1
+ },
+ "abb": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "davita": {
+  "cases": 16,
+  "cert": 93.8
+ },
+ "kla": {
+  "cases": 42,
+  "cert": 100.0
+ },
+ "lpl financial holdings": {
+  "cases": 40,
+  "cert": 100.0
+ },
+ "university of chicago": {
+  "cases": 15,
+  "cert": 93.3
+ },
+ "corteva": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "iowa state university": {
+  "cases": 34,
+  "cert": 55.9
+ },
+ "multicare health system": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "mastercard": {
+  "cases": 137,
+  "cert": 98.5
+ },
+ "agilent technologies": {
+  "cases": 11,
+  "cert": 90.9
+ },
+ "stryker": {
+  "cases": 23,
+  "cert": 100.0
+ },
+ "marvell": {
+  "cases": 27,
+  "cert": 81.5
+ },
+ "thomson reuters": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "asml": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "thermo fisher scientific": {
+  "cases": 79,
+  "cert": 96.2
+ },
+ "asm global": {
+  "cases": 20,
+  "cert": 100.0
+ },
+ "genentech": {
+  "cases": 26,
+  "cert": 96.2
+ },
+ "u.s. bank": {
+  "cases": 59,
+  "cert": 98.3
+ },
+ "hitachi": {
+  "cases": 23,
+  "cert": 82.6
+ },
+ "merck": {
+  "cases": 29,
+  "cert": 75.9
+ },
+ "astrazeneca": {
+  "cases": 21,
+  "cert": 100.0
+ },
+ "santander": {
+  "cases": 12,
+  "cert": 91.7
+ },
+ "university of virginia": {
+  "cases": 77,
+  "cert": 72.7
+ },
+ "caterpillar inc.": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "nationwide children's hospital": {
+  "cases": 35,
+  "cert": 97.1
+ },
+ "invesco": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "medline": {
+  "cases": 111,
+  "cert": 86.5
+ },
+ "crowdstrike": {
+  "cases": 40,
+  "cert": 62.5
+ },
+ "m&t bank": {
+  "cases": 27,
+  "cert": 85.2
+ },
+ "university of miami": {
+  "cases": 73,
+  "cert": 90.4
+ },
+ "broadridge": {
+  "cases": 20,
+  "cert": 100.0
+ },
+ "blackrock": {
+  "cases": 14,
+  "cert": 78.6
+ },
+ "7-eleven": {
+  "cases": 43,
+  "cert": 100.0
+ },
+ "mainegeneral health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "texas a&m university - corpus christi": {
+  "cases": 76,
+  "cert": 81.6
+ },
+ "university of southern california": {
+  "cases": 88,
+  "cert": 89.8
+ },
+ "dexcom": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "takeda": {
+  "cases": 31,
+  "cert": 74.2
+ },
+ "american red cross": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "wolters kluwer": {
+  "cases": 40,
+  "cert": 100.0
+ },
+ "the home depot": {
+  "cases": 70,
+  "cert": 100.0
+ },
+ "centrica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "hewlett packard enterprise": {
+  "cases": 85,
+  "cert": 100.0
+ },
+ "fiserv": {
+  "cases": 95,
+  "cert": 98.9
+ },
+ "medical university of south carolina": {
+  "cases": 21,
+  "cert": 100.0
+ },
+ "northern trust": {
+  "cases": 39,
+  "cert": 100.0
+ },
+ "rogers behavioral health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "halifax health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "schweitzer engineering laboratories": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "the atlantic": {
+  "cases": 15,
+  "cert": 93.3
+ },
+ "ohio state university": {
+  "cases": 77,
+  "cert": 64.9
+ },
+ "barclays": {
+  "cases": 40,
+  "cert": 97.5
+ },
+ "university of nevada reno": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "borgwarner": {
+  "cases": 15,
+  "cert": 60.0
+ },
+ "kla corporation": {
+  "cases": 42,
+  "cert": 100.0
+ },
+ "uhaul": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "sanford health": {
+  "cases": 12,
+  "cert": 91.7
+ },
+ "morgan stanley": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "stanley black & decker": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "bank of america": {
+  "cases": 136,
+  "cert": 99.3
+ },
+ "carnegie mellon university": {
+  "cases": 34,
+  "cert": 73.5
+ },
+ "globalfoundries": {
+  "cases": 26,
+  "cert": 69.2
+ },
+ "primerica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "georgetown university": {
+  "cases": 44,
+  "cert": 36.4
+ },
+ "northeast georgia health system": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "ingram micro": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "deutsche bank": {
+  "cases": 17,
+  "cert": 41.2
+ },
+ "northeastern university": {
+  "cases": 28,
+  "cert": 57.1
+ },
+ "best buy": {
+  "cases": 56,
+  "cert": 82.1
+ },
+ "american university": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "universal": {
+  "cases": 18,
+  "cert": 94.4
+ },
+ "nationwide": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "target": {
+  "cases": 53,
+  "cert": 83.0
+ },
+ "becton dickinson": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "banner health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "iqvia": {
+  "cases": 34,
+  "cert": 67.6
+ },
+ "innovacare health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "cdw corporation": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "wellington management": {
+  "cases": 25,
+  "cert": 96.0
+ },
+ "walmart": {
+  "cases": 697,
+  "cert": 98.0
+ },
+ "nxp semiconductors": {
+  "cases": 30,
+  "cert": 96.7
+ },
+ "first american": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "abbott": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "newrez": {
+  "cases": 23,
+  "cert": 100.0
+ },
+ "cincinnati children\u2019s hospital and medical center": {
+  "cases": 35,
+  "cert": 97.1
+ },
+ "geico": {
+  "cases": 120,
+  "cert": 99.2
+ },
+ "northwestern mutual": {
+  "cases": 34,
+  "cert": 91.2
+ },
+ "horizon nj health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "mufg": {
+  "cases": 25,
+  "cert": 76.0
+ },
+ "cardinal health": {
+  "cases": 47,
+  "cert": 93.6
+ },
+ "beth israel lahey health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "zoom": {
+  "cases": 20,
+  "cert": 100.0
+ },
+ "fidelity investments": {
+  "cases": 451,
+  "cert": 98.4
+ },
+ "the hartford": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "ameriprise financial": {
+  "cases": 27,
+  "cert": 96.3
+ },
+ "allina health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "insperity": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "university of central florida": {
+  "cases": 16,
+  "cert": 81.2
+ },
+ "gap": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "equifax": {
+  "cases": 40,
+  "cert": 100.0
+ },
+ "amgen": {
+  "cases": 65,
+  "cert": 100.0
+ },
+ "illumina": {
+  "cases": 25,
+  "cert": 76.0
+ },
+ "regeneron pharmaceuticals": {
+  "cases": 23,
+  "cert": 100.0
+ },
+ "mcafee": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "astemo": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "ardian": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "coxhealth": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "varian": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "cloudera": {
+  "cases": 15,
+  "cert": 93.3
+ },
+ "transamerica": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "sanofi": {
+  "cases": 19,
+  "cert": 78.9
+ },
+ "cadence design systems": {
+  "cases": 54,
+  "cert": 94.4
+ },
+ "meijer": {
+  "cases": 21,
+  "cert": 95.2
+ },
+ "athena health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "ebay": {
+  "cases": 114,
+  "cert": 86.8
+ },
+ "cadence": {
+  "cases": 54,
+  "cert": 94.4
+ },
+ "vcu health": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "ensora health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "american electric power": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "atrium health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "mckesson": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "health research": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "ochsner health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "alcon": {
+  "cases": 11,
+  "cert": 90.9
+ },
+ "shipt": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "howard hughes medical institute (hhmi)": {
+  "cases": 36,
+  "cert": 80.6
+ },
+ "health plan one": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "american fidelity": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "interdigital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "asurion": {
+  "cases": 19,
+  "cert": 100.0
+ },
+ "endeavor health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "oclc": {
+  "cases": 16,
+  "cert": 18.8
+ },
+ "doterra": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "southwest airlines": {
+  "cases": 21,
+  "cert": 100.0
+ },
+ "university of nevada, las vegas": {
+  "cases": 12,
+  "cert": 50.0
+ },
+ "washington state university": {
+  "cases": 24,
+  "cert": 58.3
+ },
+ "argo group": {
+  "cases": 54,
+  "cert": 100.0
+ },
+ "ovative group": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "eli lilly and company": {
+  "cases": 110,
+  "cert": 100.0
+ },
+ "baker tilly": {
+  "cases": 10,
+  "cert": 80.0
+ },
+ "corewell health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "grant thornton": {
+  "cases": 19,
+  "cert": 89.5
+ },
+ "cornell university": {
+  "cases": 59,
+  "cert": 61.0
+ },
+ "brown university health": {
+  "cases": 21,
+  "cert": 57.1
+ },
+ "cleveland clinic": {
+  "cases": 13,
+  "cert": 84.6
+ },
+ "embry-riddle aeronautical university": {
+  "cases": 29,
+  "cert": 65.5
+ },
+ "american family insurance group": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "university health": {
+  "cases": 24,
+  "cert": 54.2
+ },
+ "florida institute of technology": {
+  "cases": 11,
+  "cert": 63.6
+ },
+ "aptiv": {
+  "cases": 12,
+  "cert": 91.7
+ },
+ "guardian life": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "f5": {
+  "cases": 34,
+  "cert": 82.4
+ },
+ "bloomberg": {
+  "cases": 127,
+  "cert": 99.2
+ },
+ "vanderbilt health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "essentia health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "ringcentral": {
+  "cases": 10,
+  "cert": 60.0
+ },
+ "coorstek": {
+  "cases": 19,
+  "cert": 89.5
+ },
+ "equinix": {
+  "cases": 16,
+  "cert": 100.0
+ },
+ "emc insurance": {
+  "cases": 62,
+  "cert": 98.4
+ },
+ "elevance health": {
+  "cases": 114,
+  "cert": 93.0
+ },
+ "fifth third": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "transunion": {
+  "cases": 28,
+  "cert": 100.0
+ },
+ "baystate health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "edwards lifesciences": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "simons foundation": {
+  "cases": 13,
+  "cert": 92.3
+ },
+ "lilly usa": {
+  "cases": 110,
+  "cert": 100.0
+ },
+ "orion": {
+  "cases": 46,
+  "cert": 97.8
+ },
+ "monolithic power systems": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "williams": {
+  "cases": 22,
+  "cert": 100.0
+ },
+ "university of rochester": {
+  "cases": 67,
+  "cert": 95.5
+ },
+ "onedigital": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "ss&c": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "texas a&m university system": {
+  "cases": 76,
+  "cert": 81.6
+ },
+ "texas a&m university - college station": {
+  "cases": 76,
+  "cert": 81.6
+ },
+ "texas a&m agrilife research": {
+  "cases": 17,
+  "cert": 88.2
+ },
+ "university of pennsylvania": {
+  "cases": 140,
+  "cert": 59.3
+ },
+ "university of arkansas": {
+  "cases": 15,
+  "cert": 93.3
+ },
+ "university of mississippi medical center": {
+  "cases": 21,
+  "cert": 57.1
+ },
+ "brandeis university": {
+  "cases": 13,
+  "cert": 76.9
+ },
+ "brown university": {
+  "cases": 21,
+  "cert": 57.1
+ },
+ "university of wisconsin system": {
+  "cases": 108,
+  "cert": 38.0
+ },
+ "lowe's": {
+  "cases": 85,
+  "cert": 89.4
+ },
+ "tarleton state university": {
+  "cases": 12,
+  "cert": 75.0
+ },
+ "benefis health system": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "american century investments": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "yale university": {
+  "cases": 80,
+  "cert": 70.0
+ },
+ "university of kansas medical center": {
+  "cases": 18,
+  "cert": 55.6
+ },
+ "blackstone": {
+  "cases": 19,
+  "cert": 42.1
+ },
+ "gap inc.": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "everest": {
+  "cases": 25,
+  "cert": 100.0
+ },
+ "arizona state university": {
+  "cases": 59,
+  "cert": 69.5
+ },
+ "unum": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "mecca": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "first quantum minerals": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "agilon health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "university of texas at austin": {
+  "cases": 76,
+  "cert": 63.2
+ },
+ "toyota": {
+  "cases": 63,
+  "cert": 96.8
+ },
+ "remitly": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "denver health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "association of american medical colleges": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "altera corporation": {
+  "cases": 28,
+  "cert": 100.0
+ },
+ "rocket mortgage": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "corpay": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "capital health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "s&t bank": {
+  "cases": 79,
+  "cert": 97.5
+ },
+ "university corporation for atmospheric research": {
+  "cases": 12,
+  "cert": 50.0
+ },
+ "geisinger": {
+  "cases": 11,
+  "cert": 72.7
+ },
+ "snap finance": {
+  "cases": 65,
+  "cert": 89.2
+ },
+ "cisco": {
+  "cases": 193,
+  "cert": 99.5
+ },
+ "symbotic": {
+  "cases": 21,
+  "cert": 100.0
+ },
+ "syneos health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "florida gulf coast university": {
+  "cases": 10,
+  "cert": 90.0
+ },
+ "ssm health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "synchrony": {
+  "cases": 27,
+  "cert": 96.3
+ },
+ "comscore": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "sarah bush lincoln health center": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "university of louisville": {
+  "cases": 27,
+  "cert": 81.5
+ },
+ "biogen": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "copart": {
+  "cases": 15,
+  "cert": 100.0
+ },
+ "delta dental": {
+  "cases": 13,
+  "cert": 84.6
+ },
+ "wells fargo": {
+  "cases": 54,
+  "cert": 100.0
+ },
+ "capital group": {
+  "cases": 150,
+  "cert": 100.0
+ },
+ "american bankers association": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "zoetis": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "gilead sciences": {
+  "cases": 51,
+  "cert": 76.5
+ },
+ "virtua health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "sony": {
+  "cases": 40,
+  "cert": 65.0
+ },
+ "manhattan associates": {
+  "cases": 27,
+  "cert": 100.0
+ },
+ "premier": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "western union": {
+  "cases": 27,
+  "cert": 77.8
+ },
+ "mitek": {
+  "cases": 19,
+  "cert": 89.5
+ },
+ "t. rowe price": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "nreca international": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "ensemble health partners": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "denver": {
+  "cases": 50,
+  "cert": 74.0
+ },
+ "novartis": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "choice hotels": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "american cancer society cancer action network": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "american cancer society": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "jackson": {
+  "cases": 26,
+  "cert": 100.0
+ },
+ "regions": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "boston medical center": {
+  "cases": 13,
+  "cert": 84.6
+ },
+ "ymca of metropolitan atlanta": {
+  "cases": 10,
+  "cert": 100.0
+ },
+ "ul standards & engagement": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "global": {
+  "cases": 98,
+  "cert": 94.9
+ },
+ "st. luke's university health network": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "jefferson health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "liveramp": {
+  "cases": 10,
+  "cert": 60.0
+ },
+ "zillow": {
+  "cases": 37,
+  "cert": 81.1
+ },
+ "ontario health": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "sentara health": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "broadcom limited": {
+  "cases": 22,
+  "cert": 100.0
+ },
+ "dubois": {
+  "cases": 13,
+  "cert": 100.0
+ },
+ "experian": {
+  "cases": 11,
+  "cert": 100.0
+ },
+ "servicenow": {
+  "cases": 116,
+  "cert": 100.0
+ },
+ "university health network": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "sandisk": {
+  "cases": 51,
+  "cert": 100.0
+ },
+ "abbvie": {
+  "cases": 26,
+  "cert": 96.2
+ },
+ "aecom": {
+  "cases": 39,
+  "cert": 100.0
+ },
+ "turner & townsend": {
+  "cases": 18,
+  "cert": 94.4
+ },
+ "linkedin": {
+  "cases": 31,
+  "cert": 100.0
+ },
+ "western digital": {
+  "cases": 76,
+  "cert": 100.0
+ },
+ "intuitive surgical": {
+  "cases": 59,
+  "cert": 93.2
+ },
+ "3s business corporation": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "collabera": {
+  "cases": 28,
+  "cert": 100.0
+ },
+ "experis": {
+  "cases": 36,
+  "cert": 88.9
+ },
+ "idexcel": {
+  "cases": 24,
+  "cert": 95.8
+ },
+ "mindlance": {
+  "cases": 34,
+  "cert": 100.0
+ },
+ "miracle software systems": {
+  "cases": 31,
+  "cert": 100.0
+ },
+ "spruce infotech": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "us it solutions": {
+  "cases": 24,
+  "cert": 100.0
+ },
+ "randstad": {
+  "cases": 190,
+  "cert": 100.0
+ },
+ "eros technologies": {
+  "cases": 12,
+  "cert": 100.0
+ },
+ "harvard university": {
+  "cases": 84,
+  "cert": 63.1
+ },
+ "arista networks": {
+  "cases": 18,
+  "cert": 100.0
+ },
+ "continental": {
+  "cases": 40,
+  "cert": 87.5
+ },
+ "the wonderful company": {
+  "cases": 14,
+  "cert": 100.0
+ },
+ "rokt": {
+  "cases": 13,
+  "cert": 100.0
+ }
+}
