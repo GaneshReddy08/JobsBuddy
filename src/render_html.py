@@ -20,6 +20,7 @@ from zoneinfo import ZoneInfo
 from xml.sax.saxutils import escape as _xml_esc
 
 ET = ZoneInfo("America/New_York")
+IST = ZoneInfo("Asia/Kolkata")
 SITE_URL = "https://siddarthareddy8.github.io/JobsBuddy/"
 PAGE_SIZE = 50
 
@@ -332,7 +333,9 @@ def _write_site_files(payload, slugs, jobs, today):
 
 
 def render_html(jobs, profile, today):
-    now = datetime.now(ET).strftime("%b %d, %Y \u00b7 %I:%M %p ET")
+    refreshed = datetime.now(IST)
+    now = (f"{refreshed.day} {refreshed.strftime('%b, ')}"
+           f"{refreshed.strftime('%I').lstrip('0') or '12'}:{refreshed:%M %p} IST")
     companies = sorted({j.get("company") for j in jobs if j.get("company")})
     slugs = _company_slugs(companies)
     payload = [_job_payload(j, today, slugs.get(j.get("company") or "", ""))
@@ -398,12 +401,25 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);bac
 .btn-ghost:hover{background:var(--ink);color:#fff}
 #filterToggle{display:none}
 
-/* hero — one headline, one subline, quiet stat row, then stop */
+/* hero */
 .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
-.hero{padding:40px 0 26px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(330px,.8fr);align-items:center;gap:44px;padding:40px 0 30px;border-bottom:1px solid var(--line)}
+.hero-copy{min-width:0}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
 .hero h1{font-size:38px;line-height:1.08;letter-spacing:-.03em;margin:12px 0;max-width:22ch}
 .hero p{font-size:16px;color:var(--ink2);max-width:64ch}
+.hero-stats{overflow:hidden;border-radius:16px;padding:22px 22px 18px;color:#fff;background:linear-gradient(120deg,#075b35 0%,#087f49 58%,#079452 100%);box-shadow:0 14px 34px rgba(4,91,51,.18);position:relative}
+.hero-stats:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-78px;top:-120px;background:rgba(255,255,255,.1);pointer-events:none}
+.stats-kicker{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:18px}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#76f7b5;box-shadow:0 0 0 4px rgba(118,247,181,.17);animation:pulse-live 1.8s ease-in-out infinite}
+@keyframes pulse-live{50%{box-shadow:0 0 0 7px rgba(118,247,181,0)}}
+.hero-stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.hero-stat{min-width:0}
+.hero-stat b{display:block;font-size:30px;line-height:1;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.hero-stat span{display:block;margin-top:8px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.76);white-space:nowrap}
+.stats-refresh{border-top:1px solid rgba(255,255,255,.2);margin-top:19px;padding-top:13px;font-size:12px;color:rgba(255,255,255,.8)}
+.stats-refresh b{color:#fff;font-weight:700}
+.stats-note{margin-top:5px;font-size:11px;color:rgba(255,255,255,.64)}
 .stats{display:flex;flex-wrap:wrap;row-gap:14px;margin-top:22px}
 .stat{padding:2px 22px;border-left:1px solid var(--line)}
 .stat:first-child{border-left:0;padding-left:0}
@@ -510,6 +526,8 @@ footer a{font-weight:600}
   .layout{flex-direction:column}
   main.results{width:100%}
   .hero h1{font-size:32px}
+  .hero{grid-template-columns:1fr;gap:22px}
+  .hero-stats{max-width:none}
   .hsearch{max-width:none}
 }
 </style>
@@ -535,9 +553,21 @@ footer a{font-weight:600}
   </div>
 
   <section class="hero">
-  <div class="eyebrow">India jobs · Software, data, cloud and AI</div>
-    <h1>Software openings across India and worldwide remote roles.</h1>
-    <p>Fresh public ATS postings every two hours. Filter by city, role, experience, company and remote eligibility.</p>
+    <div class="hero-copy">
+      <div class="eyebrow">India jobs · Software, data, cloud and AI</div>
+      <h1>Software openings across India and worldwide remote roles.</h1>
+      <p>Fresh public ATS postings every two hours. Filter by city, role, experience, company and remote eligibility.</p>
+    </div>
+    <aside class="hero-stats" aria-label="Live job board statistics">
+      <div class="stats-kicker"><span class="live-dot" aria-hidden="true"></span>Live job market</div>
+      <div class="hero-stat-grid">
+        <div class="hero-stat"><b id="heroRoles">0</b><span>Open roles</span></div>
+        <div class="hero-stat"><b id="heroCompanies">0</b><span>Companies</span></div>
+        <div class="hero-stat"><b id="heroNew">0</b><span>New today</span></div>
+      </div>
+      <div class="stats-refresh">Last refresh (IST): <b>%%NOW%%</b></div>
+      <div class="stats-note">Counts update as you change filters · refreshed every 2 hours</div>
+    </aside>
   </section>
 
   <div class="layout">
@@ -799,6 +829,12 @@ function render(){
   for(var i = 0; i < slice.length; i++) html += cardHtml(slice[i], i);
   box.innerHTML = html;
   var n = filtered.length;
+  var openJobs = filtered.filter(function(j){return !j.is_closed;});
+  var companies = new Set(openJobs.map(function(j){return j.company;}).filter(Boolean));
+  var newToday = openJobs.filter(function(j){return j.is_new;}).length;
+  document.getElementById('heroRoles').textContent = openJobs.length.toLocaleString();
+  document.getElementById('heroCompanies').textContent = companies.size.toLocaleString();
+  document.getElementById('heroNew').textContent = newToday.toLocaleString();
   document.getElementById('empty').style.display = n ? 'none' : 'block';
   document.getElementById('more').style.display = (state.shown < n) ? '' : 'none';
 }
