@@ -200,24 +200,6 @@ def _py_meta_line(j):
     return " · ".join(parts)
 
 
-def _company_sponsor_line(roles):
-    """'Confirmed H-1B sponsor · High tier · 143 filings' style line, or ''."""
-    best, cases = None, None
-    for j in roles:
-        t = j.get("sponsor_tier")
-        if t and TIER_RANK.get(t, 0) > TIER_RANK.get(best, 0):
-            best = t
-        c = j.get("sponsor_cases")
-        if c and (cases is None or c > cases):
-            cases = c
-    if not best:
-        return ""
-    line = f"Confirmed H-1B sponsor · {TIER_LABEL.get(best, best)} tier"
-    if cases:
-        line += f" · {cases} DOL filings"
-    return line
-
-
 def _board_css():
     """Reuse the board's own stylesheet so company pages look like the product."""
     return _PAGE.split("<style>", 1)[1].split("</style>", 1)[0]
@@ -225,7 +207,6 @@ def _board_css():
 
 def _render_company_page(company, slug, roles, today):
     roles = sorted(roles, key=lambda j: (j.get("age_days") is None, j.get("age_days") or 99999))
-    sline = _company_sponsor_line(roles)
     cards = []
     for j in roles:
         apply = (f'<a class="apply" href="{_esc(j.get("url"))}" target="_blank" '
@@ -238,13 +219,13 @@ def _render_company_page(company, slug, roles, today):
             f'<div class="meta">{_esc(_py_meta_line(j))}</div>'
             + (f'<a class="job-source" href="{_esc(j.get("source_url"))}" target="_blank" rel="noopener noreferrer">Via {_esc("Remote OK" if j.get("source") == "remoteok" else "Remote Landers")}</a>' if j.get("source") in ("remoteok", "remotelanders") and j.get("source_url") else "")
             + f'</div><div class="card-side">{new}{apply}</div></div></article>')
-    sub = sline or "Open roles"
+    sub = f"{len(roles)} open software role{'s' if len(roles) != 1 else ''} · refreshed every two hours"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{_esc(company)} jobs — visa-sponsoring roles | JobsBuddy</title>
+<title>{_esc(company)} software jobs | JobsBuddy</title>
 <meta name="description" content="Open software and technology roles at {_esc(company)} in India or remote worldwide. Refreshed every two hours.">
 <link rel="canonical" href="{SITE_URL}c/{slug}.html">
 <style>{_board_css()}
