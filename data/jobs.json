@@ -364,7 +364,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 6,
+    "age_days": 7,
     "fresh": false,
     "first_seen": "2026-10-18",
     "last_seen": "2026-10-25",
@@ -1112,7 +1112,7 @@
       "node.js",
       "api"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1173,7 +1173,7 @@
       "aws",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1204,7 +1204,7 @@
       "aws",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1266,7 +1266,7 @@
       "java",
       "sql"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1328,7 +1328,7 @@
       "aws",
       "gcp"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1351,32 +1351,6 @@
     "sponsor_cert": 97.5,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 6,
-    "fresh": false,
-    "first_seen": "2026-10-19",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "0e956b45c5f2": {
-    "company": "PayPal",
-    "title": "Sr Software Engineer - Python",
-    "location": "Bangalore, Karnataka, In",
-    "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Sr-Software-Engineer---Python_R0138315-1",
-    "description": "Sr Software Engineer - Python",
-    "posted_at": "2026-10-19",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 225,
-    "sponsor_cert": 84.0,
-    "match_score": 28,
-    "matched_skills": [
-      "python"
-    ],
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
@@ -1601,7 +1575,7 @@
       "rds",
       "bigquery"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1747,7 +1721,7 @@
       "rds",
       "generative ai"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1809,7 +1783,7 @@
       "llm",
       "agent"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1871,7 +1845,7 @@
       "api",
       "postgresql"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1902,7 +1876,7 @@
       "api",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1933,7 +1907,7 @@
       "api",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1964,7 +1938,7 @@
       "api",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -1995,7 +1969,7 @@
       "api",
       "rds"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -2057,7 +2031,7 @@
       "ci/cd",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -2086,7 +2060,7 @@
       "aws",
       "ci/cd"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -2117,7 +2091,7 @@
       "llm",
       "rag"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -2130,7 +2104,7 @@
     "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
     "source_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
     "source": "remoteok",
-    "description": "Remote - Established in 1744, Sotheby\u00e2\u0080\u0099s promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNDAuNzQuMjA5LjE2MA== when applying to show you read the job post completely (#RNDAuNzQuMjA5LjE2MA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "description": "Remote - Established in 1744, Sotheby\u00e2\u0080\u0099s promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNTIuMTgwLjE1MS4yMA== when applying to show you read the job post completely (#RNTIuMTgwLjE1MS4yMA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
     "contact_email": "",
     "posted_at": "2026-10-18T19:00:02+00:00",
     "yoe_min": null,
@@ -2158,7 +2132,7 @@
     "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-rain-1137544",
     "source_url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-rain-1137544",
     "source": "remoteok",
-    "description": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RNDAuNzQuMjA5LjE2MA== when applying to show you read the job post completely (#RNDAuNzQuMjA5LjE2MA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "description": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** and tag RNTIuMTgwLjE1MS4yMA== when applying to show you read the job post completely (#RNTIuMTgwLjE1MS4yMA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
     "contact_email": "",
     "posted_at": "2026-10-18T18:00:01+00:00",
     "yoe_min": null,
@@ -2172,7 +2146,7 @@
     "matched_skills": [
       "rds"
     ],
-    "age_days": 6,
+    "age_days": 7,
     "fresh": false,
     "first_seen": "2026-10-19",
     "last_seen": "2026-10-25",
@@ -10207,7 +10181,7 @@
       "mysql",
       "aws"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10237,7 +10211,7 @@
       "rag",
       "generative ai"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10268,7 +10242,7 @@
       "go",
       "rest"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10299,7 +10273,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10329,7 +10303,7 @@
       "html",
       "css"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10356,7 +10330,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10385,7 +10359,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10416,7 +10390,7 @@
       "rag",
       "agent"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10447,7 +10421,7 @@
       "terraform",
       "rag"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10509,7 +10483,7 @@
       "rds",
       "gcp"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10588,7 +10562,7 @@
       "rds",
       "claude"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10619,7 +10593,7 @@
       "postgresql",
       "postgres"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -10803,7 +10777,7 @@
       "redis",
       "aws"
     ],
-    "age_days": 4,
+    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-25",
@@ -11442,7 +11416,7 @@
       "go",
       "rest"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -11510,10 +11484,10 @@
     "company": "Grafana Labs",
     "title": "Senior Backend Software Engineer - Loki | NASA | Remote",
     "location": "Canada (Remote)  +1 more",
-    "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6229350004",
-    "description": "<div class=\"content-intro\"><p>Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at <u><span><a href=\"http://grafana.com\" target=\"_blank\">grafana.com</a></span></u> and follow us on <u><span><a href=\"https://www.linkedin.com/company/grafana-labs/\" target=\"_blank\">LinkedIn</a></span></u> and <u><span><a href=\"https://twitter.com/grafana\" target=\"_blank\">X</a></span></u><u>.</u></p> <p>We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.</p> <p>You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.</p></div><h2>&nbsp;</h2> <p><strong>This is a remote position. We are looking for candidates in the US and Canada.</strong></p> <p><strong>What is Grafana Cloud?&nbsp;</strong></p> <p>Grafana Cloud is our composable observability platform that integrates metrics, logs, traces, and profiles with Grafana. It allows our customers to leverage the best open source observability software \u2013 including Prometheus, Mimir, Loki, Tempo, and Pyroscope \u2013 without the overhead of installing, maintaining and scaling their own observability stack.</p> <p>The Databases team owns and operates the telemetry databases that are<a href=\"https://github.com/grafana/mimir\"> Mimir for metrics</a>,<a href=\"https://github.com/grafana/loki\"> Loki for logs</a>,<a href=\"https://github.com/grafana/tempo\"> Tempo for traces</a>, and<a href=\"https://github.com/grafana/pyroscope\"> Pyroscope for profiles</a>. Our databases are offered as a hosted service in Grafana Cloud, and additionally as on-premise solutions with <a href=\"https://grafana.com/products/enterprise/metrics/\">Grafana Enterprise Metrics</a>, <a href=\"https://grafana.com/products/enterprise/logs/\">Grafana Enterprise Logs</a>, and <a href=\"https://grafana.com/blog/2021/11/09/introducing-grafana-enterprise-traces/\">Grafana Enterprise Traces</a>. They are multi-tenant distributed systems implemented in",
+    "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6229352004",
+    "description": "<div class=\"content-intro\"><p>Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at <u><span><a href=\"http://grafana.com\" target=\"_blank\">grafana.com</a></span></u> and follow us on <u><span><a href=\"https://www.linkedin.com/company/grafana-labs/\" target=\"_blank\">LinkedIn</a></span></u> and <u><span><a href=\"https://twitter.com/grafana\" target=\"_blank\">X</a></span></u><u>.</u></p> <p>We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.</p> <p>You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.</p></div><p><strong>This role is available for candidates located in the United States or Canada.</strong></p> <p><strong>The Opportunity:</strong></p> <p>Grafana Cloud is our composable observability platform that integrates metrics, logs, traces, and profiles with Grafana. It allows our customers to leverage the best open source observability software \u2013 including Prometheus, Mimir, Loki, Tempo, and Pyroscope \u2013 without the overhead of installing, maintaining and scaling their own observability stack.</p> <p>The Databases team owns the telemetry databases that are<a href=\"https://github.com/grafana/mimir\"> Mimir for metrics</a>,<a href=\"https://github.com/grafana/loki\"> Loki for logs</a>,<a href=\"https://github.com/grafana/tempo\"> Tempo for traces</a>, and<a href=\"https://github.com/grafana/pyroscope\"> Pyroscope for profiles</a>. Our databases are OSS projects that we also offer as a Cloud service supporting Grafana Cloud, and as an on-premise solution. They are multi-tenant distributed systems implemented in Go and running on Kubernetes across all major Cloud service providers (GCP, Azure, AWS). We also have engineers working on<a href=\"https://github.com/prometheus/prometheus\"> Prometheus</a>, <a href=\"https://github.com/grafana/alloy\">Grafana Alloy</a>,<a href=\"https://grafana.com/blog/2022/07/25/new-in-grafana-mimir-inge",
     "contact_email": "",
-    "posted_at": "2026-10-21T07:01:19-04:00",
+    "posted_at": "2026-10-21T07:08:53-04:00",
     "source": "greenhouse",
     "yoe_min": null,
     "yoe_max": null,
@@ -11541,10 +11515,10 @@
     "company": "Grafana Labs",
     "title": "Staff Backend Software Engineer - Loki | NASA | Remote",
     "location": "Canada (Remote)  +1 more",
-    "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6229322004",
-    "description": "<div class=\"content-intro\"><p>Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at <u><span><a href=\"http://grafana.com\" target=\"_blank\">grafana.com</a></span></u> and follow us on <u><span><a href=\"https://www.linkedin.com/company/grafana-labs/\" target=\"_blank\">LinkedIn</a></span></u> and <u><span><a href=\"https://twitter.com/grafana\" target=\"_blank\">X</a></span></u><u>.</u></p> <p>We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.</p> <p>You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.</p></div><h2>&nbsp;</h2> <p><strong>This is a remote position. We are looking for candidates in the US and Canada.</strong></p> <p><strong>What is Grafana Cloud?&nbsp;</strong></p> <p>Grafana Cloud is our composable observability platform that integrates metrics, logs, traces, and profiles with Grafana. It allows our customers to leverage the best open source observability software \u2013 including Prometheus, Mimir, Loki, Tempo, and Pyroscope \u2013 without the overhead of installing, maintaining and scaling their own observability stack.</p> <p>The Databases team owns and operates the telemetry databases that are<a href=\"https://github.com/grafana/mimir\"> Mimir for metrics</a>,<a href=\"https://github.com/grafana/loki\"> Loki for logs</a>,<a href=\"https://github.com/grafana/tempo\"> Tempo for traces</a>, and<a href=\"https://github.com/grafana/pyroscope\"> Pyroscope for profiles</a>. Our databases are offered as a hosted service in Grafana Cloud, and additionally as on-premise solutions with <a href=\"https://grafana.com/products/enterprise/metrics/\">Grafana Enterprise Metrics</a>, <a href=\"https://grafana.com/products/enterprise/logs/\">Grafana Enterprise Logs</a>, and <a href=\"https://grafana.com/blog/2021/11/09/introducing-grafana-enterprise-traces/\">Grafana Enterprise Traces</a>. They are multi-tenant distributed systems implemented in",
+    "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6229324004",
+    "description": "<div class=\"content-intro\"><p>Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at <u><span><a href=\"http://grafana.com\" target=\"_blank\">grafana.com</a></span></u> and follow us on <u><span><a href=\"https://www.linkedin.com/company/grafana-labs/\" target=\"_blank\">LinkedIn</a></span></u> and <u><span><a href=\"https://twitter.com/grafana\" target=\"_blank\">X</a></span></u><u>.</u></p> <p>We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.</p> <p>You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.</p></div><p><strong>This role is available for candidates located in the United States or Canada.</strong></p> <p><strong>The Opportunity:</strong></p> <p>Grafana Cloud is our composable observability platform that integrates metrics, logs, traces, and profiles with Grafana. It allows our customers to leverage the best open source observability software \u2013 including Prometheus, Mimir, Loki, Tempo, and Pyroscope \u2013 without the overhead of installing, maintaining and scaling their own observability stack.</p> <p>The Databases team owns the telemetry databases that are<a href=\"https://github.com/grafana/mimir\"> Mimir for metrics</a>,<a href=\"https://github.com/grafana/loki\"> Loki for logs</a>,<a href=\"https://github.com/grafana/tempo\"> Tempo for traces</a>, and<a href=\"https://github.com/grafana/pyroscope\"> Pyroscope for profiles</a>. Our databases are OSS projects that we also offer as a Cloud service supporting Grafana Cloud, and as an on-premise solution. They are multi-tenant distributed systems implemented in Go and running on Kubernetes across all major Cloud service providers (GCP, Azure, AWS). We also have engineers working on<a href=\"https://github.com/prometheus/prometheus\"> Prometheus</a>, <a href=\"https://github.com/grafana/alloy\">Grafana Alloy</a>,<a href=\"https://grafana.com/blog/2022/07/25/new-in-grafana-mimir-inge",
     "contact_email": "",
-    "posted_at": "2026-10-21T07:13:41-04:00",
+    "posted_at": "2026-10-21T07:21:00-04:00",
     "source": "greenhouse",
     "yoe_min": null,
     "yoe_max": null,
@@ -11681,7 +11655,7 @@
       "postgresql",
       "postgres"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -11774,7 +11748,7 @@
       "aws",
       "rds"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12297,7 +12271,7 @@
       "api",
       "ec2"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12328,7 +12302,7 @@
       "supabase",
       "rag"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12359,7 +12333,7 @@
       "aws",
       "terraform"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12390,7 +12364,7 @@
       "go",
       "node"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12421,7 +12395,7 @@
       "rds",
       "kubernetes"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12452,7 +12426,7 @@
       "rds",
       "kubernetes"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12545,7 +12519,7 @@
       "node",
       "node.js"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12576,7 +12550,7 @@
       "node",
       "node.js"
     ],
-    "age_days": 5,
+    "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12607,7 +12581,7 @@
       "api",
       "postgresql"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12638,7 +12612,7 @@
       "rds",
       "html"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12669,7 +12643,7 @@
       "aws",
       "ec2"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12697,7 +12671,7 @@
       "api",
       "llm"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12728,7 +12702,7 @@
       "terraform",
       "llm"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -12788,7 +12762,7 @@
       "rds",
       "kubernetes"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-25",
@@ -13310,37 +13284,6 @@
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
-  },
-  "e728d0a436e0": {
-    "company": "Salesforce",
-    "title": "Data Engineering SMTS/LMTS",
-    "location": "India - Hyderabad",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Data-Engineering-SMTS-LMTS--Revenue-Analytics_JR364686",
-    "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. About Salesforce We\u2019re Salesforce, the Customer Company, inspiring the future of business with AI+ Data +CRM. Leading with our core values, we help companies across every industry blaze new trails and connect with customers in a whole new way. And, we empower you to be a Trailblazer, too \u2014 driving your performance and career growth, charting new paths, and improving the state of the world. If you believe in business as the greatest platform for change and in companies doing well and doing good\u2013 you\u2019ve come to the right place. Department Overview The Revenue Analytics team builds the data platforms, intelligent products, modern application capabilities, and AI-enabled automation that power enterprise decision-making. We combine deep engineering expertise with business context to deliver trusted, scalable systems that support both human and agent-driven workflows. Our team partners with business and technology leaders to solve complex challenges through modern data architecture, governed data products, integrated app services, and agentic systems. We emphasize production reliability, measurable business value, and responsible automation\u2014not experimentation without operational accountability. Role Description: Hands On Data Lead & Systems Integrator We are seeking a Lead Member of Technical Staff (LMTS) to serve as a primary technical execution lead across our core data platform and its application integration interfaces. This is a hands-on technical leadership role. While operating within the overarching platform architecture established by Principal Engineers, you will own the delivery of high-impact data engineering projects, build resilient pipelines, and ensure data products seamlessly plug into downstream applications, web tools, and agentic workflows. You will bring deep expertise in core data engineering (Python, Snowflake, dbt, SQL) complemented by solid working knowledge of the app development ecosystem (Node.js, APIs, microservices) to bridge data platforms with full-stack systems. You will lead project-level execution, mentor senior engineers, and translate complex requirements into production-ready software. Core Responsibilitie",
-    "posted_at": "2026-10-22",
-    "source": "workday",
-    "yoe_min": 14,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 442,
-    "sponsor_cert": 85.3,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "javascript",
-      "typescript",
-      "java",
-      "sql",
-      "go"
-    ],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-10-22",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
   },
   "bd4423eeddb9": {
     "company": "AlphaSense",
@@ -14135,8 +14078,8 @@
       "rag",
       "agent"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -14228,8 +14171,8 @@
       "ci/cd",
       "llm"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -14259,8 +14202,8 @@
       "node.js",
       "api"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -14884,7 +14827,7 @@
       "aws",
       "rds"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
@@ -14915,7 +14858,7 @@
       "mysql",
       "aws"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
@@ -14946,8 +14889,8 @@
       "api",
       "rds"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -14974,8 +14917,8 @@
       "api",
       "agent"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -15002,8 +14945,8 @@
       "api",
       "agent"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -15126,8 +15069,8 @@
       "rest",
       "api"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -15188,7 +15131,7 @@
       "go",
       "api"
     ],
-    "age_days": 3,
+    "age_days": 4,
     "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
@@ -15217,8 +15160,8 @@
       "rag",
       "system design"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -15248,8 +15191,8 @@
       "rds",
       "gcp"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -15377,8 +15320,8 @@
       "openai",
       "llm"
     ],
-    "age_days": 2,
-    "fresh": true,
+    "age_days": 3,
+    "fresh": false,
     "first_seen": "2026-10-22",
     "last_seen": "2026-10-25",
     "open": true
@@ -17128,7 +17071,7 @@
       "rag",
       "generative ai"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17157,7 +17100,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17188,7 +17131,7 @@
       "postgresql",
       "postgres"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17219,7 +17162,7 @@
       "aws",
       "rds"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17250,7 +17193,7 @@
       "aws",
       "ec2"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17309,7 +17252,7 @@
       "ci/cd",
       "github actions"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17340,7 +17283,7 @@
       "aws",
       "rds"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17371,7 +17314,7 @@
       "agent",
       "agentic"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17588,7 +17531,7 @@
       "claude",
       "llm"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17619,7 +17562,7 @@
       "api",
       "rds"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17650,7 +17593,7 @@
       "rag",
       "agent"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17681,7 +17624,7 @@
       "api",
       "rag"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17710,7 +17653,7 @@
       "rds",
       "rag"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17740,7 +17683,7 @@
       "agent",
       "system design"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17768,7 +17711,7 @@
       "go",
       "api"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17795,7 +17738,7 @@
       "python",
       "api"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17852,7 +17795,7 @@
       "rest",
       "api"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -17884,7 +17827,7 @@
       "rds",
       "ci/cd"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-23",
     "last_seen": "2026-10-25",
@@ -18204,32 +18147,6 @@
     "sponsor_cert": 100.0,
     "match_score": 8,
     "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-10-23",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "6ae0635df786": {
-    "company": "Johnson Controls",
-    "title": "Engineering Manager (Java, .NET, Kafka, Angular): Building Management & Controls",
-    "location": "Pune-Maharashtra-India",
-    "url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Pune-Maharashtra-India/Engineering-Manager_WD30281723-1",
-    "description": "Engineering Manager (Java, .NET, Kafka, Angular): Building Management & Controls",
-    "posted_at": "2026-10-22",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 16,
-    "sponsor_cert": 100.0,
-    "match_score": 16,
-    "matched_skills": [
-      "java"
-    ],
     "age_days": 3,
     "fresh": false,
     "first_seen": "2026-10-23",
@@ -19602,7 +19519,7 @@
       "api",
       "system design"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-10-24",
     "last_seen": "2026-10-25",
@@ -19633,7 +19550,7 @@
       "postgresql",
       "postgres"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-10-24",
     "last_seen": "2026-10-25",
@@ -19664,7 +19581,7 @@
       "node.js",
       "api"
     ],
-    "age_days": 0,
+    "age_days": 1,
     "fresh": true,
     "first_seen": "2026-10-24",
     "last_seen": "2026-10-25",
@@ -19696,7 +19613,7 @@
       "rds",
       "system design"
     ],
-    "age_days": 1,
+    "age_days": 2,
     "fresh": true,
     "first_seen": "2026-10-24",
     "last_seen": "2026-10-25",
@@ -20743,10 +20660,10 @@
     "title": "AVP - Cloud Database Automation Engineer",
     "location": "Hyderabad IN",
     "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/careers/job/Hyderabad-IN/AVP---Cloud-Database-Automation-Engineer_2602366",
-    "description": "Job Description: Role Title: AVP - Cloud Database Automation Engineer Company Overview: Synchrony (NYSE: SYF) is a leading consumer financing company that has been at the heart of American commerce and opportunity for nearly a century. Synchrony delivers credit and banking products that empower tens of millions of consumers to improve their financial lives and access what matters most. Leveraging innovative solutions that are shaping the future of retail commerce, Synchrony supports the growth and success of some of the nation\u2019s most respected brands, alongside hundreds of thousands of small and midsize businesses, including health and wellness providers. Committed to excellence in service and culture, Synchrony is proud to be named as #3 as a Great Place to Work\u00ae in India and is honored to be ranked the #1 Best Company to Work For\u00ae in the U.S. by Fortune magazine and Great Place to Work\u00ae. For more information, visit www.synchrony.com . Organizational Overview: Our Platform Engineering organization comprises of Database experts and automation engineers who focus on enabling strategies to enhance customer and partner experience and optimize business performance through database platform development and management cutting edge automation technologies such as Terraform, Jenkins and Ansible. Role Summary/Purpose: Cloud Database Automation Engineer role will be responsible for projects to design, enhance or add new functionality to Synchrony Data platforms (Databases), as well as all operational support activities. Provide technical oversight, architecture, design expertise and guidance, interdepartmental coordination, and vendor direction for Synchrony Database Engineering and automation efforts. Key Responsibilities: Implement infrastructure as code for various database platforms Perform Software Configuration Management (SCM) for databases Implement automation of database operations and migration Implement monitoring and logging solutions for different database technology stacks or container orchestration platforms Have general cloud ops knowledge with at least one provider, private or public, such as attached volume lifecycle, auto scaling, cloud-config, security, instance lifecycle, etc Implement Database automation in AWS from build to day-to-day support. Required Skills & Knowledge: Experience working on or leading teams performing systems automation and integration (ideally leveraging an agile methodology / lean techniques) Competence in using scripting + programming languages to automate frequently executed activities 3+ years Public Cloud (AWS RDS) experience to instant and configure up databases for mission critical, highly available and high throughput application 3+ years Expert knowledge of Linux / Unix / Windows systems 5+ years\u2019 experience as a Senior DBA or Database automation Engineer; Expertise in designing/configuring mission critical, highly available and high throughput Databases Experience with production systems and dealing wit",
+    "description": "AVP - Cloud Database Automation Engineer",
     "posted_at": "2026-10-23",
     "source": "workday",
-    "yoe_min": 8,
+    "yoe_min": null,
     "yoe_max": null,
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -20774,10 +20691,10 @@
     "title": "AVP, Endpoint Information Security Engineer",
     "location": "Hyderabad IN",
     "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/en-US/careers/job/Hyderabad-IN/AVP--Endpoint-Information-Security-Engineer_2602509-1",
-    "description": "Job Description: Role Title: AVP, Endpoint Information Security Engineer (L11) Company Overview: Synchrony (NYSE: SYF) is a leading consumer financing company that has been at the heart of American commerce and opportunity for nearly a century. Synchrony delivers credit and banking products that empower tens of millions of consumers to improve their financial lives and access what matters most. Leveraging innovative solutions that are shaping the future of retail commerce, Synchrony supports the growth and success of some of the nation\u2019s most respected brands, alongside hundreds of thousands of small and midsize businesses, including health and wellness providers. Committed to excellence in service and culture, Synchrony is proud to be named as #3 as a Great Place to Work\u00ae in India and is honored to be ranked the #1 Best Company to Work For\u00ae in the U.S. by Fortune magazine and Great Place to Work\u00ae. For more information, visit www.synchrony.com . \u200b\u200b Organizational Overview: This role belongs to the Endpoint Security Engineering organization within the Information Security function. Role Summary/Purpose: This role will be part of an enterprise-wide information security operations team responsible for Synchrony Financial (SYF) endpoint security and the Endpoint Security Management platform. The ideal candidate will be responsible for engineering and maintaining the Endpoint Security Tools, its platform, delivering modules as a service to stakeholders, and supporting endpoint security posture. The candidate will provide Level 3-4 support while setting priorities and managing day-to-day operations across an enterprise team. Key Responsibilities: Administration of the Tanium SaaS platform , agent s , and all modules under enterprise license agreement Develop , document, and implement Tanium content and dashboards Provide Tanium troubleshooting and tuning on Windows, Linux, and Mac OSes Working experience in Windows, Linux, and Mac environments Understanding of Cloud, mobility, and container environments Engineer solutions to meet changing compliance requirements for PCI, NIST, CIS, etc. Collect compliance evidence and provide audit narratives Lead the design, implementation, and support of security tool enhancements Lead the definition/implementation of POCs (Proof of Concept) of capabilities Provide subject matter expertise and vendor engagement for all Tanium modules Maintain and mature endpoint focused zero trust Ensure expectations are met and ensure high customer satisfaction levels through established metrics against SLAs (Service Level Agreements) Support the design and implementation of procedures and controls necessary to ensure and protect the safety and security of information systems assets, including prevention of intentional or inadvertent access, modification, disclosure, or destruction Understand business objectives , priorities, drivers, and technology focus areas As needed, act as a member of rapid response security operations/project",
+    "description": "AVP, Endpoint Information Security Engineer",
     "posted_at": "2026-10-19",
     "source": "workday",
-    "yoe_min": 5,
+    "yoe_min": null,
     "yoe_max": null,
     "opt_friendly": true,
     "sponsor_tier": "medium",
@@ -20795,30 +20712,6 @@
     "age_days": 6,
     "fresh": false,
     "first_seen": "2026-10-24",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "81505c8a0320": {
-    "company": "Wells Fargo",
-    "title": "Senior Specialty Software Engineer - Full Stack Developer",
-    "location": "BENGALURU, KA",
-    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/BENGALURU-KA/Senior-Specialty-Software-Engineer_R-545513-1",
-    "description": "Senior Specialty Software Engineer - Full Stack Developer",
-    "posted_at": "2026-10-22",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 54,
-    "sponsor_cert": 100.0,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
     "open": true,
     "contact_email": ""
@@ -20843,106 +20736,6 @@
       "api"
     ],
     "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "37c5c815e35e": {
-    "company": "Zillow",
-    "title": "Senior Fullstack Engineer, Mortgage Fulfillment AI",
-    "location": "Remote-USA",
-    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Fullstack-Engineer--Mortgage-Fulfillment-AI_P751548-2",
-    "description": "Senior Fullstack Engineer, Mortgage Fulfillment AI",
-    "posted_at": "2026-10-20",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 37,
-    "sponsor_cert": 81.1,
-    "match_score": 28,
-    "matched_skills": [
-      "llm"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "b57792f422c7": {
-    "company": "Zillow",
-    "title": "Principal Applied Scientist, Generative AI",
-    "location": "Remote-USA",
-    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Principal-Applied-Scientist--Agentic-AI_P747465",
-    "description": "Principal Applied Scientist, Generative AI",
-    "posted_at": "2026-10-20",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 37,
-    "sponsor_cert": 81.1,
-    "match_score": 28,
-    "matched_skills": [
-      "generative ai"
-    ],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "08e4b249db6b": {
-    "company": "Zillow",
-    "title": "Senior Applied Scientist (Post-Training)",
-    "location": "Remote-USA",
-    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Applied-Scientist_P751331",
-    "description": "Senior Applied Scientist (Post-Training)",
-    "posted_at": "2026-10-20",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 37,
-    "sponsor_cert": 81.1,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true,
-    "contact_email": ""
-  },
-  "d37936b72418": {
-    "company": "Zillow",
-    "title": "Principal Applied Scientist (User Modeling)",
-    "location": "Remote-USA",
-    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Principal-Applied-Scientist--User-Modeling-_P751443-1",
-    "description": "Principal Applied Scientist (User Modeling)",
-    "posted_at": "2026-10-20",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 37,
-    "sponsor_cert": 81.1,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 5,
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
@@ -20976,36 +20769,6 @@
     ],
     "age_days": 5,
     "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true
-  },
-  "a531c188ad53": {
-    "company": "Salesforce",
-    "title": "Software Engineering, LMTS (Backend + Infra)",
-    "location": "India - Bangalore",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/AI-Engineer-Backend---LMTS-SMTS-MTS_JR340189-1",
-    "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Role Description Salesforce has immediate opportunities for Lead Software Engineers who want their lines of code to have significant and measurable positive impact for users. We pride ourselves on writing high-quality, maintainable code that strengthens the stability of the product and makes our lives easier. We embrace the hybrid model and celebrate the individual strengths of each team member while encouraging everyone on the team to grow into the best version of themselves. As a Lead Software Engineer , your responsibilities will include: Envision and build new components/frameworks in distributed filesystems in an ever-growing and evolving market technology to provide scale and efficiency Design and develop high-quality, production-ready code used by millions of users of our cloud platform Build efficient components/algorithms on a microservice multi-tenant SaaS cloud distributed filesystem environment Code review, mentor junior engineers, and provide technical guidance to the team Job Duties Research, design, and develop computer and network software or specialized utility programs Update software or enhance existing software capabilities Lead the team with the product owner role in collecting requirements, defining the roadmap, driving partners, and unblocking the team in execution Contribute to the success of the scrum team through code reviews, deployment process automation, documentation, refinement, planning, and retros Lead, collaborate, communicate, and mentor others on the team and in the company Work closely with cross-functional teams to deliver a roadmap that meets shared business goals Resolve complex technical issues and drive innovations that improve system scalability, robustness, and availability Troubleshoot issues with services the team develops and owns Participate in the team's on-call rotation to keep services operational and highly available Create, maintain, and share technical documentation used by engineers and other team members Telecommuting is an option; some travel to Salesforce offices may be required Required Skills 10+ years of software development experience with mastery in systems design and programm",
-    "posted_at": "2026-10-25",
-    "source": "workday",
-    "yoe_min": 10,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "high",
-    "sponsors_visa": true,
-    "sponsor_cases": 442,
-    "sponsor_cert": 85.3,
-    "match_score": 100,
-    "matched_skills": [
-      "python",
-      "java",
-      "sql",
-      "go",
-      "api",
-      "postgresql"
-    ],
-    "age_days": 0,
-    "fresh": true,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
     "open": true
@@ -21155,103 +20918,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
-  },
-  "57fc5edf6980": {
-    "company": "Altera Corporation",
-    "title": "FPGA IP Software Development Engineer",
-    "location": "Bengaluru, Karnataka, In",
-    "url": "https://altera.wd1.myworkdayjobs.com/en-US/altera/job/Bengaluru-Karnataka-India/FPGA-IP-Software-Development-Engineer_R03358",
-    "description": "Job Details: Job Description: As an FPGA IP Software Development Engineer at Altera, you will play a crucial role in developing and optimizing software for our cutting-edge FPGA intellectual property. You will be responsible for creating robust, high-performance software solutions that enable our customers to leverage the full potential of Altera's FPGA technology across various applications. Responsibilities: Design, develop, and test software drivers, APIs, and example designs for Altera's FPGA IP cores. Collaborate with hardware design engineers to define software requirements and ensure seamless integration between hardware and software. Implement and debug firmware, embedded software, Linux kernel drivers and host-side applications interacting with ethernet/DMA/PCI FPGA IPs. Develop comprehensive test plans and perform thorough validation of software components. Optimize software for performance, resource utilization, and power efficiency on Altera FPGA platforms. Create detailed documentation including design specifications, user guides, and application notes. Provide technical support to customers and internal teams regarding software usage and troubleshooting. Stay up-to-date with industry trends and emerging technologies in FPGA, embedded systems, and software development. Qualifications: Required Skills & Qualifications 5 -12 years of experience in embedded software, firmware, BSP, or low-level systems development for embedded systems or FPGA-based platforms Bachelor\u2019s degree or master\u2019s degree in computer engineering, Electronics Engineering, or a related field Strong programming skills in C, with experience in C++ considered beneficial and FPGA design flows is highly desirable. Experience developing firmware, device drivers (Network/PCI preferred), or platform software for embedded systems. Deep expertise in embedded Linux environments and low-level software architecture and experience with debugging tools (e.g. JTAG, logic analyzers, software debuggers) and embedded development workflows Strong understanding of computer architecture, digital design, and data structures. Demonstrate AI skills in day-to-day activities for development/debug/validation. Behavioral Traits Customer-Centric Approach: Committed to understanding and meeting customer needs by providing solutions and support Problem-Solving Mindset: Demonstrates attention to detail, accountability, and integrity in resolving design challenges. Adaptability & Innovation: Open to learning new technologies and eager to innovate in a rapidly changing environment. Communication & Collaboration: Excels at sharing ideas and working within a team to achieve project goals. Job Type: Regular Shift: Shift 1 (India) Primary Location: Bengaluru, Karnataka, India Additional Locations: Posting Statement: All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability",
-    "posted_at": "2026-10-23",
-    "source": "workday",
-    "yoe_min": 5,
-    "yoe_max": 12,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 28,
-    "sponsor_cert": 100.0,
-    "match_score": 44,
-    "matched_skills": [
-      "go",
-      "api",
-      "rag"
-    ],
-    "age_days": 2,
-    "fresh": true,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true
-  },
-  "02c031b0e6ae": {
-    "company": "Altera Corporation",
-    "title": "Senior FPGA IP Design Engineer",
-    "location": "Bengaluru, Karnataka, In",
-    "url": "https://altera.wd1.myworkdayjobs.com/en-US/altera/job/Bengaluru-Karnataka-India/Senior-FPGA-IP-Design-Engineer_R03235",
-    "description": "Senior FPGA IP Design Engineer",
-    "posted_at": "2026-10-20",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 28,
-    "sponsor_cert": 100.0,
-    "match_score": 8,
-    "matched_skills": [],
-    "age_days": 5,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true
-  },
-  "f50f0d2dc76a": {
-    "company": "Barclays",
-    "title": "AI/ML Data Scientist",
-    "location": "Gurugram, DLF Downtown",
-    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Gurugram-DLF-Downtown/AI-ML-Data-Scientist_JR-0000136329-1",
-    "description": "AI/ML Data Scientist",
-    "posted_at": "2026-10-22",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 40,
-    "sponsor_cert": 97.5,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 3,
-    "fresh": false,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true
-  },
-  "1386eebcb233": {
-    "company": "Zillow",
-    "title": "Senior Software Engineer",
-    "location": "Remote-USA",
-    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Senior-Software-Engineer_P751275-1",
-    "description": "Senior Software Engineer",
-    "posted_at": "2026-10-23",
-    "source": "workday",
-    "yoe_min": null,
-    "yoe_max": null,
-    "opt_friendly": true,
-    "sponsor_tier": "medium",
-    "sponsors_visa": true,
-    "sponsor_cases": 37,
-    "sponsor_cert": 81.1,
-    "match_score": 20,
-    "matched_skills": [],
-    "age_days": 2,
-    "fresh": true,
-    "first_seen": "2026-10-25",
-    "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b3b984b6d473": {
     "company": "Lilt Corporate",
@@ -21275,7 +20943,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "af0f4df36ba3": {
     "company": "Paxos",
@@ -21299,7 +20968,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2637f79a59b9": {
     "company": "Simspace Corporation",
@@ -21323,7 +20993,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "22df59715c4a": {
     "company": "Solace",
@@ -21347,7 +21018,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "dfa341359071": {
     "company": "Solace",
@@ -21371,7 +21043,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "93f3390fc0a8": {
     "company": "Solace",
@@ -21395,7 +21068,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "a2447dcedc90": {
     "company": "Broadway Ventures",
@@ -21422,7 +21096,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "76c59f93ed24": {
     "company": "Knak",
@@ -21446,7 +21121,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "43fd4d5a2501": {
     "company": "Latitude AI",
@@ -21472,7 +21148,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e5f063bb7a67": {
     "company": "Red Cell Partners",
@@ -21496,7 +21173,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "339667fd9cda": {
     "company": "Sidecar Health",
@@ -21520,7 +21198,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ed1c455f7604": {
     "company": "Voyager Technologies, Inc.",
@@ -21544,7 +21223,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "dd1096f501c7": {
     "company": "Voyager Technologies, Inc.",
@@ -21568,7 +21248,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "7ad315531c5c": {
     "company": "Voyager Technologies, Inc.",
@@ -21592,7 +21273,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f6c27e8b9a70": {
     "company": "Bellese",
@@ -21616,7 +21298,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5c6e8b861b09": {
     "company": "Bluesight",
@@ -21640,7 +21323,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "4a76e68b7eea": {
     "company": "Cruxocm",
@@ -21664,7 +21348,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e732c66d06c4": {
     "company": "Egen",
@@ -21690,7 +21375,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f3bbb442ad39": {
     "company": "Egen",
@@ -21714,7 +21400,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "19cba4dcc7a0": {
     "company": "Endpointclinical",
@@ -21738,7 +21425,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "23b49fdd079c": {
     "company": "Shieldai",
@@ -21762,7 +21450,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "6efb912e36c2": {
     "company": "Terawattinfrastructure",
@@ -21786,7 +21475,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2f7fb0e495fa": {
     "company": "Thinkahead",
@@ -21810,7 +21500,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "397e0bf9800a": {
     "company": "Thinkahead",
@@ -21834,7 +21525,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0e9b8f72bc4b": {
     "company": "Acumatica",
@@ -21858,7 +21550,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "a08916f970ad": {
     "company": "NBCUniversal",
@@ -21884,7 +21577,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5d2d3fd933c2": {
     "company": "NielsenIQ",
@@ -21908,7 +21602,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "c022ed22a1e2": {
     "company": "Parallel Partners",
@@ -21932,7 +21627,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9eebad7ad0e4": {
     "company": "Parallel Partners",
@@ -21956,7 +21652,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2bfb1bbfb974": {
     "company": "Vericast",
@@ -21980,7 +21677,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "60a77cf48f30": {
     "company": "Anyone Ai",
@@ -22004,7 +21702,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f7cef7501511": {
     "company": "Anyone Ai",
@@ -22028,7 +21727,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "30dd040d3042": {
     "company": "Anyone Ai",
@@ -22052,7 +21752,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "34885d672932": {
     "company": "Anyone Ai",
@@ -22076,7 +21777,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "c866c4f6bd21": {
     "company": "Anyone Ai",
@@ -22100,7 +21802,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b779b35c1597": {
     "company": "Climate Finance Solutions",
@@ -22124,7 +21827,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "bf5c07d10d78": {
     "company": "Docker",
@@ -22148,7 +21852,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "59ffcb704293": {
     "company": "G2I",
@@ -22172,7 +21877,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9590c9fabba2": {
     "company": "Jbs Dev",
@@ -22198,7 +21904,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "771b17ee188e": {
     "company": "Mangomint",
@@ -22222,7 +21929,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "42b280bb4aee": {
     "company": "Paxos",
@@ -22246,7 +21954,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "296277f5a9f6": {
     "company": "Pragmatike",
@@ -22270,7 +21979,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "197636c520fe": {
     "company": "Pragmatike",
@@ -22294,7 +22004,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "4135b599f6ae": {
     "company": "Pragmatike",
@@ -22318,7 +22029,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "657aaa919512": {
     "company": "Pragmatike",
@@ -22342,7 +22054,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "4b5d08bd90c9": {
     "company": "Pragmatike",
@@ -22366,7 +22079,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ac93d1d0c3ec": {
     "company": "Pragmatike",
@@ -22390,7 +22104,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "35efbee9aa33": {
     "company": "Pragmatike",
@@ -22414,7 +22129,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9157c9e44739": {
     "company": "Pragmatike",
@@ -22438,7 +22154,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9855576fc0ae": {
     "company": "Prelim",
@@ -22462,7 +22179,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "76b1fa742594": {
     "company": "Prelim",
@@ -22486,7 +22204,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "7ffab5cbd578": {
     "company": "Sardine",
@@ -22510,7 +22229,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e1f9a0b2dd5f": {
     "company": "Solink",
@@ -22534,7 +22254,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "24752d0c7a5d": {
     "company": "Telus Digital",
@@ -22558,7 +22279,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b3de126edfdc": {
     "company": "Telus Digital",
@@ -22582,7 +22304,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "eb03a295721e": {
     "company": "Tern",
@@ -22606,7 +22329,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "45deb45b2e8c": {
     "company": "Tern",
@@ -22630,7 +22354,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "c3f88f5c3e35": {
     "company": "Tern",
@@ -22654,7 +22379,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "874fa8814710": {
     "company": "Affirm",
@@ -22678,7 +22404,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b961865f03dc": {
     "company": "Aura",
@@ -22702,7 +22429,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "fb21cec5681a": {
     "company": "Automox",
@@ -22728,7 +22456,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "45338e41ba3e": {
     "company": "Automox",
@@ -22754,7 +22483,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "dc4c67948193": {
     "company": "Backblaze External Website",
@@ -22778,7 +22508,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "686ca76e367e": {
     "company": "Clarity Innovations",
@@ -22802,7 +22533,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "83a4ac85dc81": {
     "company": "Coconut Software",
@@ -22826,7 +22558,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "d6f55aa803dd": {
     "company": "Coconut Software",
@@ -22850,7 +22583,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "d64f2f8458b2": {
     "company": "Databento",
@@ -22874,7 +22608,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ec257ab03e22": {
     "company": "Databento",
@@ -22898,7 +22633,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f6471f5dbeba": {
     "company": "Databento",
@@ -22922,7 +22658,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "1e6506ac1fe8": {
     "company": "Databento",
@@ -22948,7 +22685,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5d6a6891cfec": {
     "company": "Databento",
@@ -22972,7 +22710,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f5b100a0c755": {
     "company": "Databento",
@@ -23000,7 +22739,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e4896546206f": {
     "company": "DLH",
@@ -23024,7 +22764,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "05a3c44da2a5": {
     "company": "IonQ",
@@ -23048,7 +22789,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "789f3902a16c": {
     "company": "Twilio",
@@ -23072,7 +22814,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ef1c6706d19f": {
     "company": "Twilio",
@@ -23096,7 +22839,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ac064e96c08b": {
     "company": "Traackr",
@@ -23120,7 +22864,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0008021da6dd": {
     "company": "Traackr",
@@ -23144,7 +22889,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "96f207b73cec": {
     "company": "Trilogyfederal",
@@ -23168,7 +22914,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "56780e59644b": {
     "company": "Wra Ca",
@@ -23192,7 +22939,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2b25067274db": {
     "company": "AECOM",
@@ -23216,7 +22964,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0f7d889084d8": {
     "company": "Vuori, Inc",
@@ -23240,7 +22989,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "c3d30fe56112": {
     "company": "Cape",
@@ -23264,7 +23014,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f437657872e0": {
     "company": "Cape",
@@ -23288,7 +23039,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "6ee476dd78c1": {
     "company": "Nango",
@@ -23312,7 +23064,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "497192447134": {
     "company": "OnePay",
@@ -23336,7 +23089,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "7248645d3f92": {
     "company": "OnePay",
@@ -23360,7 +23114,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ce6a1a525385": {
     "company": "BigID",
@@ -23384,7 +23139,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "8c77320029ae": {
     "company": "Blend360",
@@ -23408,7 +23164,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9fe7f7bd6b6e": {
     "company": "Blend360",
@@ -23432,7 +23189,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "913a071f2927": {
     "company": "SGS",
@@ -23456,7 +23214,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "58782b2ab980": {
     "company": "SOSi",
@@ -23480,7 +23239,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "cf614a7e66d4": {
     "company": "SOSi",
@@ -23506,7 +23266,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9176cfefd306": {
     "company": "SOSi",
@@ -23530,7 +23291,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "baff59c3eef4": {
     "company": "SOSi",
@@ -23554,7 +23316,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "bd57967312ac": {
     "company": "SOSi",
@@ -23578,7 +23341,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "3bfafc70c13e": {
     "company": "Auror",
@@ -23602,7 +23366,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0db6917cbaf3": {
     "company": "Auror",
@@ -23626,7 +23391,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "211939f9cfa1": {
     "company": "Spoton",
@@ -23650,7 +23416,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "a7d6fe180b76": {
     "company": "A1M Solutions",
@@ -23674,7 +23441,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "472799405be5": {
     "company": "Abnormal",
@@ -23698,7 +23466,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "51afff201050": {
     "company": "Addepar",
@@ -23722,7 +23491,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "467b1940c7c3": {
     "company": "Addepar",
@@ -23746,7 +23516,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "17237dc014e3": {
     "company": "Addepar",
@@ -23770,7 +23541,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "cb72eecf622f": {
     "company": "Attain Talent",
@@ -23794,7 +23566,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "400a02ce7939": {
     "company": "Backblaze External Website",
@@ -23818,7 +23591,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "033a190ed5ba": {
     "company": "Beyond Finance",
@@ -23842,7 +23616,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2c66ee642740": {
     "company": "Clarity Innovations",
@@ -23866,7 +23641,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "36d75dc77362": {
     "company": "Coinbase",
@@ -23893,7 +23669,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9294574ccc7e": {
     "company": "Coinbase",
@@ -23917,7 +23694,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5567bc2e27ba": {
     "company": "Coinbase",
@@ -23941,7 +23719,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f15ce972ba58": {
     "company": "Coinbase",
@@ -23965,7 +23744,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "220d242aaff7": {
     "company": "Counterpart",
@@ -23989,7 +23769,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "060aa30b8e77": {
     "company": "Defense Unicorns",
@@ -24013,7 +23794,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "3cf62c067425": {
     "company": "Grafana Labs",
@@ -24037,7 +23819,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "af13b22b6e9c": {
     "company": "Grafana Labs",
@@ -24061,7 +23844,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "292b42d22783": {
     "company": "Grafana Labs",
@@ -24085,7 +23869,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "a030508e2ce5": {
     "company": "Grafana Labs",
@@ -24109,7 +23894,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "343316119c35": {
     "company": "Grafana Labs",
@@ -24133,7 +23919,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5250f9c83aef": {
     "company": "Grafana Labs",
@@ -24157,7 +23944,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "55f7e17f2741": {
     "company": "Instacart",
@@ -24181,7 +23969,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ee922ed7c0c5": {
     "company": "LTS",
@@ -24205,7 +23994,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "d5ec2e01681c": {
     "company": "Mozilla",
@@ -24229,7 +24019,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "52cd388fb82f": {
     "company": "Mozilla",
@@ -24253,7 +24044,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ac30dd9d4606": {
     "company": "Mozilla",
@@ -24277,7 +24069,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "33c2eb2c7de4": {
     "company": "Mozilla",
@@ -24301,7 +24094,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "900493bdc94e": {
     "company": "Nebius",
@@ -24325,7 +24119,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b7b3fb74e52e": {
     "company": "NetDocuments",
@@ -24349,7 +24144,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "93fd9e1934e7": {
     "company": "NMI",
@@ -24373,7 +24169,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ea557d34a202": {
     "company": "\u014cura",
@@ -24397,7 +24194,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "bca5da5748c2": {
     "company": "Thrive Market",
@@ -24421,7 +24219,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b59d9499594a": {
     "company": "Twilio",
@@ -24445,7 +24244,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "c46dcf7ee782": {
     "company": "UJET",
@@ -24469,7 +24269,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "1e589745a347": {
     "company": "15Five",
@@ -24493,7 +24294,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "1830eb75a2d4": {
     "company": "Branch.Gg",
@@ -24517,7 +24319,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "48d8260f6d5b": {
     "company": "Distro",
@@ -24541,7 +24344,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "98fbdf254d03": {
     "company": "Egen",
@@ -24565,7 +24369,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "f9a0434cde6c": {
     "company": "Highlandfleets 2",
@@ -24591,7 +24396,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e362d0a010ef": {
     "company": "Experian",
@@ -24615,7 +24421,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "eca8016e007e": {
     "company": "NBCUniversal",
@@ -24639,7 +24446,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0472b8c4c3ee": {
     "company": "NBCUniversal",
@@ -24663,7 +24471,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "2fdf65bebdbb": {
     "company": "NBCUniversal",
@@ -24687,7 +24496,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "3adbc0a0564d": {
     "company": "NBCUniversal",
@@ -24713,7 +24523,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b4cdf24c453d": {
     "company": "NielsenIQ",
@@ -24739,7 +24550,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "1d1bee337ab1": {
     "company": "Augmodo",
@@ -24763,7 +24575,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "172d4d158aad": {
     "company": "Binance.Us",
@@ -24787,7 +24600,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "9547ba7f5be5": {
     "company": "Binance.Us",
@@ -24811,7 +24625,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5c8e641c4627": {
     "company": "Docker",
@@ -24835,7 +24650,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "cc5a532babb0": {
     "company": "Koho",
@@ -24859,7 +24675,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0185d34b769d": {
     "company": "Materialsecurity",
@@ -24883,7 +24700,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "93085d0fa732": {
     "company": "Materialsecurity",
@@ -24907,7 +24725,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e779d4f0eec0": {
     "company": "Terraai",
@@ -24931,7 +24750,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "51a95e2ea421": {
     "company": "Abnormal",
@@ -24955,7 +24775,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0b36470ef21f": {
     "company": "Chainguard",
@@ -24979,7 +24800,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "282957df9259": {
     "company": "Chainguard",
@@ -25003,7 +24825,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "6ae984999e24": {
     "company": "Coinbase",
@@ -25027,7 +24850,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ad7806d44009": {
     "company": "Coinbase",
@@ -25051,7 +24875,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5e3d443c9c26": {
     "company": "Coinbase",
@@ -25075,7 +24900,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "7a30cf162cf1": {
     "company": "Coinbase",
@@ -25099,7 +24925,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "bc069e6a5ec5": {
     "company": "Coinbase",
@@ -25123,7 +24950,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "43dcaabb290a": {
     "company": "Coinbase",
@@ -25147,7 +24975,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "8b3f361a746b": {
     "company": "Coinbase",
@@ -25171,7 +25000,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "343ef491ce08": {
     "company": "Data Systems Analysts, Inc.",
@@ -25195,7 +25025,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "ba0920a1136a": {
     "company": "DEFCON AI",
@@ -25219,7 +25050,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "efa756802393": {
     "company": "DLH",
@@ -25243,7 +25075,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "3752f80bf1da": {
     "company": "Freenome",
@@ -25267,7 +25100,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "dccdd677b4bc": {
     "company": "GitLab",
@@ -25291,7 +25125,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "88a7f7d0b572": {
     "company": "GitLab",
@@ -25315,7 +25150,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b9e10254219e": {
     "company": "GitLab",
@@ -25339,7 +25175,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e37dafd97f71": {
     "company": "GitLab",
@@ -25363,7 +25200,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0b1591227b41": {
     "company": "GitLab",
@@ -25390,7 +25228,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "25c30f370779": {
     "company": "GitLab",
@@ -25414,7 +25253,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "031e7118ed26": {
     "company": "Happy Money",
@@ -25438,7 +25278,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "12cc77d11091": {
     "company": "Motional",
@@ -25462,7 +25303,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5b29c3a56aeb": {
     "company": "Motional",
@@ -25486,7 +25328,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "41790607c407": {
     "company": "Motional",
@@ -25510,7 +25353,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "3cce48f54458": {
     "company": "Motional",
@@ -25534,7 +25378,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "4bdb1f345810": {
     "company": "Nutrafol",
@@ -25558,7 +25403,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5ffa2ee29774": {
     "company": "Ocrolus Inc.",
@@ -25582,7 +25428,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5f603e679b7a": {
     "company": "Pantheon Systems, Inc",
@@ -25608,7 +25455,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "5416b2b4c3fa": {
     "company": "Postscript",
@@ -25632,7 +25480,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "cd7694420c93": {
     "company": "Postscript",
@@ -25656,7 +25505,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "75ce85f250f3": {
     "company": "Privacy",
@@ -25680,7 +25530,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "a16576548da7": {
     "company": "Everpure",
@@ -25704,7 +25555,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0f3737b3782e": {
     "company": "Torc Robotics",
@@ -25728,7 +25580,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "e0dddde81945": {
     "company": "Torc Robotics",
@@ -25752,7 +25605,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "65a951fc18cb": {
     "company": "Edpuzzle",
@@ -25776,7 +25630,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "0cf945d49c24": {
     "company": "Erg",
@@ -25800,7 +25655,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "da9e2b9d373e": {
     "company": "Lucidworks",
@@ -25824,7 +25680,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "dcefc4ef1f69": {
     "company": "ABOUT YOU SE & Co. KG",
@@ -25848,7 +25705,8 @@
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
-    "open": true
+    "open": true,
+    "contact_email": ""
   },
   "b3a9f860e80e": {
     "company": "QAD, Inc.",
@@ -25871,6 +25729,1389 @@
       "agent"
     ],
     "age_days": 7,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true,
+    "contact_email": ""
+  },
+  "857c4ad08a5f": {
+    "company": "AHEAD",
+    "title": "Senior Network Engineer",
+    "location": "Gurugram, Haryana",
+    "url": "https://jobs.lever.co/thinkahead/cb807c86-251a-46c4-a6de-6672a59bfb16",
+    "description": "AHEAD builds platforms for digital business. By weaving together advances in cloud infrastructure, automation and analytics, and software delivery, we help enterprises deliver on the promise of digital transformation. At AHEAD, we prioritize creating a culture of belonging, where all perspectives and voices are represented, valued, respected, and heard. We create spaces to empower everyone to speak up, make change, and drive the culture at AHEAD. We are an equal opportunity employer, and do not discriminate based on an individual's race, national origin, color, gender, gender identity, gender expression, sexual orientation, religion, age, disability, marital status, or any other protected characteristic under applicable law, whether actual or perceived. We embrace all candidates that will contribute to the diversification and enrichment of ideas and perspectives at AHEAD. We are seeking a Sr. Network Engineer to provide L3 network support across enterprise infrastructure, security, routing, switching, wireless, and connectivity environments. The role will be responsible for resolving complex incidents, supporting network changes, and maintaining reliable and secure network operations. Key Responsibilities Provide L3 troubleshooting and resolution for complex network and firewall incidents. Manage and support FortiGate Firewall and Cisco Firepower Threat Defense (FTD) environments using Firewall Management Center (FMC). Design, configure, and troubleshoot Cisco routing and switching environments, including VLANs, OSPF, BGP, and STP. Support enterprise wireless networks and resolve performance, connectivity, and authentication issues. Troubleshoot DHCP, DNS, NAT, VPN, and end-to-end network connectivity issues. Participate in network monitoring, incident management, problem management, and change management activities. Perform root-cause analysis, document resolutions, and recommend preventive actions. Collaborate with cross-functional teams, vendors, and stakeholders to restore services and deliver network changes effectively. Maintain accurate network documentation, operational procedures, and knowledge articles. Required Skills & Qualifications 10+ years of hands-on experience in network engineering and enterprise network operations. Strong experience with FortiGate Firewall and Cisco Firepower Threat Defense (FTD). Practical experience with Cisco Firewall Management Center (FMC). Strong knowledge of Cisco routing and switching. Expertise in VLANs, OSPF, BGP, and STP. Experience supporting and troubleshooting enterprise wireless networks. Strong troubleshooting skills across DHCP, DNS, NAT, VPN, and network connectivity. Experience with network monitoring, incident management, and change management processes. Strong analytical, communication, documentation, and collaboration skills. Desired Skills Cisco ISE, including RADIUS, TACACS+, and 802.1X. Azure Networking, including VNet, NSG, VPN Gateway, and ExpressRoute. SD-WAN experience with Aruba E",
+    "contact_email": "",
+    "posted_at": "1792583335282",
+    "source": "lever",
+    "yoe_min": 10,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": null,
+    "sponsors_visa": false,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 16,
+    "matched_skills": [
+      "rest",
+      "rag"
+    ],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "976f2be9c08e": {
+    "company": "Salesforce",
+    "title": "Product Security Engineer",
+    "location": "India - Hyderabad",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Product-Security-Engineer_JR355204",
+    "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Product Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Salesforce's Product Security team within the broader Security organization is at the forefront of securing our customer data and assets while balancing risk and security posture. We thrive on collaboration with product and engineering teams to drive risk outcomes and help maintain trust for our customers. Your Impact \u2013 Responsibilities This role is on the Security Foundations team within our product security organization, and requires a blend of real-world experience and deep knowledge in software security, including application security, cloud security, secure coding practices, and security architecture, with a specific focus on application and infrastructure risk identification and remediation. These risks may be strategic in nature, impacting multiple products or tools. This role is focused on proactive discovery and remediation of emerging risk patterns via Attack Surface Management and targeted hands-on security assessments. The ideal candidate will have a proven track record of identifying systemic risk through uncovering of underlying common patterns representing systemic flaws, investigating and drafting Root Cause Analyses for complex vulnerabilities, and configuring/analyzing/triaging risk signals from monitoring and detection tooling. This role is responsible for leading investigations into, and coordinating remediation for systemic risks across Salesforce\u2019s products. Partnership with Engineering Collaborate with Product Management & Engineering teams to drive accountability for implementing mitigation steps across affected areas and to resolve issues at their root cause. Drive adoption of proactive security measures and guardrails, such as automated secure coding checks, centralized input validation libraries, and robust access control mechanisms. Update organizational standards, policies and procedures as necessary to prevent systemic flaws from being re-introduced. Educate developers on secure coding practices and common systemic flaws. Influence Product Management & Engineering roadmaps to drive architectural improvements and adopt secure-by-default product features. Risk Identification & Management Review technical design and architec",
+    "posted_at": "2026-10-25",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 442,
+    "sponsor_cert": 85.3,
+    "match_score": 56,
+    "matched_skills": [
+      "go",
+      "api",
+      "aws",
+      "rds",
+      "agent",
+      "agentic"
+    ],
+    "age_days": 0,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "296d91c8d2ea": {
+    "company": "Rockwell Automation",
+    "title": "POWER PLATFORM & COPILOT DEVELOPER",
+    "location": "Pune, India",
+    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Pune-India/POWER-PLATFORM---COPILOT-DEVELOPER_R26-8041",
+    "description": "Rockwell Automation is a global technology leader focused on helping the world\u2019s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special. Behind our customers - amazing companies that help feed the world, provide life-saving medicine on a global scale, and focus on clean water and green mobility - our people are energized problem solvers that take pride in how the work we do changes the world for the better. We welcome all makers, forward thinkers, and problem solvers who are looking for a place to do their best work. And if that\u2019s you we would love to have you join us! Job Description Role Summary The Power Platform & Copilot Developer leads the design, delivery, and scaling of enterprise AI chatbot and low\u2011code solutions using Microsoft Copilot Studio and the Microsoft Power Platform to support LCS strategic business use cases . This role serves as a technical and functional lead , providing architectural guidance, governance oversight, and mentorship while ensuring measurable business outcomes from AI investments. The role partners closely with business leaders, AI governance teams, and platform stakeholders to establish a scalable, governed low\u2011code AI operating model , build Copilot Studio subject\u2011matter expertise (SME), and drive adoption across LCS. We are hiring for Pune, Noida and Bangalore location. Key Responsibilities AI & Copilot Technical Leadership Lead the end\u2011to\u2011end architecture, design, and delivery of Copilot Studio solutions and AI chatbots Define conversational AI patterns, standards, and reusable frameworks for enterprise adoption Review and approve solution designs to ensure scalability, performance, and maintainability Drive continuous improvement of AI agents based on usage analytics, feedback, and business outcomes Power Platform Solution Architecture Lead development of complex Power Apps, Power Automate, and Dataverse solutions supporting Copilot use cases Establish best practices for low\u2011code / pro\u2011code extensibility, integrations, and APIs Ensure alignment with enterprise application architecture and data strategies Governance, Security & Compliance Own and enforce governance standards for Copilot and Power Platform solutions Partner with security and compliance teams to ensure Responsible AI, data protection, and audit readiness Guide environment strategy, DLP policies, access controls, and solution lifecycle management Capability Building & Team Enablement Act as a Copilot Studio SME and mentor , cross\u2011training Power App developers into AI solution builders Support hiring, onboarding, and enablement of incremental Copilot development capacity Contribute to a Center of Excellence / RCC delivery model , defining intake, prioritization, KPIs, and capacity planning Stakeholder & Program Leadership Partner with business owners and AI leadership to identify, prioritize, and roadmap high\u2011value AI use cases Provide exec",
+    "posted_at": "2026-10-20",
+    "source": "workday",
+    "yoe_min": 2,
+    "yoe_max": 8,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 90.0,
+    "match_score": 48,
+    "matched_skills": [
+      "go",
+      "api",
+      "rds",
+      "rag",
+      "agent"
+    ],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "8a83540a23f9": {
+    "company": "Thomson Reuters",
+    "title": "Staff Software Engineer - AI I",
+    "location": "India Bengaluru Karnatak",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/India-Bengaluru-Karnataka/Staff-Software-Engineer---AI-I_JREQ194748",
+    "description": "Staff Software Engineer - AI I",
+    "posted_at": "2026-10-24",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 1,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "bee0a1068d3b": {
+    "company": "Thomson Reuters",
+    "title": "Senior Software Engineer AI",
+    "location": "India Bengaluru Karnatak",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/India-Bengaluru-Karnataka/Senior-Software-Engineer_JREQ203336",
+    "description": "Senior Software Engineer AI",
+    "posted_at": "2026-10-24",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 1,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "c81fb0b404ba": {
+    "company": "Thomson Reuters",
+    "title": "Associate Lead Software Engineer",
+    "location": "India Bengaluru Karnatak",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/India-Bengaluru-Karnataka/Senior-Software-Engineer-I_JREQ200058-1",
+    "description": "Associate Lead Software Engineer",
+    "posted_at": "2026-10-24",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 1,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "da9dce425060": {
+    "company": "Thomson Reuters",
+    "title": "Senior Software Engineer",
+    "location": "India Bengaluru Karnatak",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/India-Bengaluru-Karnataka/Senior-Software-Engineer_JREQ202474",
+    "description": "Senior Software Engineer",
+    "posted_at": "2026-10-24",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 10,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 1,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "a987410d0893": {
+    "company": "Mastercard",
+    "title": "Senior Software Engineer - Java Full Stack React/Angular",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-Stack-React-Angular_R-294357",
+    "description": "Senior Software Engineer - Java Full Stack React/Angular",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 36,
+    "matched_skills": [
+      "react",
+      "java"
+    ],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "5b6a43ea3871": {
+    "company": "Mastercard",
+    "title": "Senior Software Engineer",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294272-1",
+    "description": "Senior Software Engineer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "d2b33d0630b8": {
+    "company": "Mastercard",
+    "title": "Software Engineer II - Java Full Stack React",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613",
+    "description": "Software Engineer II - Java Full Stack React",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 36,
+    "matched_skills": [
+      "react",
+      "java"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "c3bbaefbbcba": {
+    "company": "Mastercard",
+    "title": "Senior Software Engineer - Java Full stack with AI",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-stack-with-AI_R-294119",
+    "description": "Senior Software Engineer - Java Full stack with AI",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 28,
+    "matched_skills": [
+      "java"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "d55ed4edd665": {
+    "company": "Mastercard",
+    "title": "Lead Software engineer",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Software-engineer_R-292341",
+    "description": "Lead Software engineer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "b48407a7831c": {
+    "company": "Mastercard",
+    "title": "Software Engineer II (Mainframe Developer)",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-274163",
+    "description": "Software Engineer II (Mainframe Developer)",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "b0f9a008c80d": {
+    "company": "Mastercard",
+    "title": "Manager, Data Science",
+    "location": "Pune, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Manager--Data-Science_R-294478",
+    "description": "Manager, Data Science",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "7ebe88700c49": {
+    "company": "Mastercard",
+    "title": "Data Scientist II",
+    "location": "Gurgaon, India",
+    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Data-Scientist-II_R-290428-1",
+    "description": "Data Scientist II",
+    "posted_at": "2026-10-19",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 137,
+    "sponsor_cert": 98.5,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "9f13e0015f13": {
+    "company": "Stryker",
+    "title": "Senior Software Engineer",
+    "location": "Gurugram, India",
+    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Gurugram-India/Software-Engineer_R571944",
+    "description": "Senior Software Engineer",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 23,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "5a775b8a2eac": {
+    "company": "Stryker",
+    "title": "Senior Software Engineer - SDET",
+    "location": "Gurugram, India",
+    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Gurugram-India/Senior-Software-Engineer---SDET_R575661",
+    "description": "Senior Software Engineer - SDET",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 23,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "bb3b3cba8f71": {
+    "company": "Stryker",
+    "title": "Senior Software Engineer - Automation Testing",
+    "location": "Gurugram, India",
+    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Gurugram-India/Senior-Software-Engineer---Automation-Testing_R575176",
+    "description": "Senior Software Engineer - Automation Testing",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 23,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "3def8733fd60": {
+    "company": "Stryker",
+    "title": "Senior Software Engineer \u2013 Embedded Developer",
+    "location": "Gurugram, India",
+    "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Gurugram-India/Senior-Software-Engineer---Embedded-Developer_R568891-1",
+    "description": "Senior Software Engineer \u2013 Embedded Developer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 23,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "fe2e2150a017": {
+    "company": "Vanguard",
+    "title": "Manager, Data Engineering",
+    "location": "Hyderabad, India",
+    "url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Hyderabad-India/Manager--Data-Engineering_182580",
+    "description": "Manager, Data Engineering",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 48,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "bd9061860ec0": {
+    "company": "Vanguard",
+    "title": "Data Engineer, Specialist",
+    "location": "Hyderabad, India",
+    "url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Hyderabad-India/Data-Engineer--Specialist--WT-Service-Experience-_182573-1",
+    "description": "Data Engineer, Specialist",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 48,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "3e587c1fc5b6": {
+    "company": "Target",
+    "title": "Data Analyst",
+    "location": "Bangalore,India",
+    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Data-Analyst_R0000431066",
+    "description": "About the Role Join the Data Analytics (DA) team at TII across domains such as Marketing and Digital, Merchandising, Supply Chain and Logistics, Store Operations, Finance and more . Here you'll collaborate with business leaders to turn data into insights that drive strategic decisions. You\u2019ll be part of a fast-moving, high-impact environment focused on leveraging business intelligence and advanced analytics to solve real-world problems. This role combines technical expertise with business understanding to uncover and communicate actionable insights using cutting-edge statistical and analytical techniques. Behind one of the world\u2019s best loved brands is a uniquely capable and brilliant team of data scientists, engineers and analysts. The Target Data & Analytics team creates the tools and data products to sustainably educate and enable our business partners to make great data-based decisions at Target. We help develop the technology that personalizes the guest experience, from product recommendations to relevant ad content. We\u2019re also the source of the data and analytics behind Target\u2019s Internet of Things (iOT) applications, fraud detection, Supply Chain optimization and demand forecasting. We play a key role in identifying the test-and-measure or A/B test opportunities that continuously help Target improve the guest experience, whether they love to shop in stores or at Target.com . Key Responsibilities: \uf0b7 Execute data analysis to support merchandising decisions using established frameworks and methodologies \uf0b7 Assist with scenario and decision analysis by preparing data, running analyses, and summarizing results \uf0b7 Work closely with senior analysts and stakeholders to understand business questions and analytical requirements \uf0b7 Develop and maintain reports, dashboards, and basic models to track business performance and trends \uf0b7 Apply foundational predictive and diagnostic analytics techniques under guidance \uf0b7 Query and analyze large datasets using SQL and data platforms such as GCP BigQuery or similar tools \uf0b7 Support data pipeline development and validation in partnership with data engineering teams \uf0b7 Ensure accuracy, consistency, and quality of analytical outputs \uf0b7 Clearly communicate findings through AI summaries and basic data storytelling \uf0b7 Document analysis logic, definitions, and assumptions to support transparency and reuse \uf0b7 Follow corporate data governance, privacy, and responsible AI guidelines Requirements / About You: Experience: Overall 2-6 years exp and relevant 1-3 years exp Qualification: TI : B.Tech / B.E. or Masters in Statistics /Econometrics/Mathematics equivalent US : Bachelors Skills required: 1. Hands on experience to Structured Query Language (SQL) syntax, including joins, volatile tables, and basic query tuning. And deep understanding of core DW/BI concepts. 2. Experience in at least 1 BI Visualization tool (i.e. PBI, Looker, Tableau) with ability to learn additional vendor and proprietary visualizations tools. 3. Working know",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": 2,
+    "yoe_max": 3,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 53,
+    "sponsor_cert": 83.0,
+    "match_score": 100,
+    "matched_skills": [
+      "python",
+      "sql",
+      "go",
+      "rds",
+      "gcp",
+      "bigquery"
+    ],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "2eafe8c2d894": {
+    "company": "Target",
+    "title": "Sr Data Analyst",
+    "location": "Bangalore,India  +1 more",
+    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Sr-Data-Analyst_R0000430856",
+    "description": "Sr Data Analyst",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 53,
+    "sponsor_cert": 83.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "ba1054b8d88b": {
+    "company": "Target",
+    "title": "Lead Data Analyst",
+    "location": "Bangalore,India",
+    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Lead-Data-Analyst_R0000440436-1",
+    "description": "Lead Data Analyst",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 53,
+    "sponsor_cert": 83.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "942b3258aea9": {
+    "company": "CDW Corporation",
+    "title": "Senior AI Software Consulting Engineer",
+    "location": "Remote \u2013 USA",
+    "url": "https://cdw.wd5.myworkdayjobs.com/en-US/careers/job/Remote--USA/Senior-AI-Software-Consulting-Engineer_R26_00002984",
+    "description": "Senior AI Software Consulting Engineer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "f283a265cc0e": {
+    "company": "CDW Corporation",
+    "title": "AI Infrastructure Consulting Engineer \u2013 Converged Compute & Storage",
+    "location": "Remote \u2013 USA",
+    "url": "https://cdw.wd5.myworkdayjobs.com/en-US/careers/job/Remote--USA/AI-Infrastructure-Consulting-Engineer---Converged-Compute---Storage_R26_00002985",
+    "description": "AI Infrastructure Consulting Engineer \u2013 Converged Compute & Storage",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 28,
+    "matched_skills": [
+      "rag"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "730033acfeb3": {
+    "company": "CDW Corporation",
+    "title": "Consulting Engineer \u2013 AI Networking & Fabric Architecture",
+    "location": "Remote \u2013 USA",
+    "url": "https://cdw.wd5.myworkdayjobs.com/en-US/careers/job/Remote--USA/Consulting-Engineer---AI-Networking---Fabric-Architecture_R26_00002976",
+    "description": "Consulting Engineer \u2013 AI Networking & Fabric Architecture",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "ad808a26e5bd": {
+    "company": "CDW Corporation",
+    "title": "Principal Consulting Engineer - HI",
+    "location": "Remote \u2013 USA",
+    "url": "https://cdw.wd5.myworkdayjobs.com/en-US/careers/job/Remote--USA/Principal-Consulting-Engineer---HI_R26_00002887",
+    "description": "Principal Consulting Engineer - HI",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "8318829d314e": {
+    "company": "CDW Corporation",
+    "title": "Senior Windows Engineer - Managed Services",
+    "location": "Remote \u2013 USA",
+    "url": "https://cdw.wd5.myworkdayjobs.com/en-US/careers/job/Remote--USA/Senior-Windows-Engineer---Managed-Services_R26_00002604",
+    "description": "Senior Windows Engineer - Managed Services",
+    "posted_at": "2026-10-20",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "568008491f66": {
+    "company": "Equifax",
+    "title": "Lead Software Engineer - Agentic Engineering",
+    "location": "IND Trivandrum Equifax A",
+    "url": "https://equifax.wd5.myworkdayjobs.com/en-US/external/job/IND-Trivandrum-Equifax-Analytics-PEC/Lead-Software-Engineer_J00179327",
+    "description": "Lead Software Engineer - Agentic Engineering",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 40,
+    "sponsor_cert": 100.0,
+    "match_score": 36,
+    "matched_skills": [
+      "agent",
+      "agentic"
+    ],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "3774b42a2c6e": {
+    "company": "Cloudera",
+    "title": "Sr. AI Engineer (Data Science Team)",
+    "location": "Costa Rica-Remote",
+    "url": "https://cloudera.wd5.myworkdayjobs.com/en-US/external_career/job/Costa-Rica-Remote/Senior-Data-Scientist_260809-2",
+    "description": "Sr. AI Engineer (Data Science Team)",
+    "posted_at": "2026-10-19",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 15,
+    "sponsor_cert": 93.3,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "a58c3540a3f9": {
+    "company": "Alcon",
+    "title": "Principal I, Software Engineering",
+    "location": "Bangalore, India",
+    "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Bangalore-India/Principal-I--Software-Engineering_R-2026-49984-1",
+    "description": "Principal I, Software Engineering",
+    "posted_at": "2026-10-19",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 11,
+    "sponsor_cert": 90.9,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "eb9394e91d15": {
+    "company": "Alcon",
+    "title": "Associate II, Software Engineering",
+    "location": "Bangalore, India",
+    "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Bangalore-India/Associate-II--Software-Engineering_R-2026-50130-1",
+    "description": "Associate II, Software Engineering",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 11,
+    "sponsor_cert": 90.9,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "ec90d820f819": {
+    "company": "Aptiv",
+    "title": "Lead Test Development Engineer",
+    "location": "Chennai, India",
+    "url": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/Chennai-India/Lead-Test-Development-Engineer_J000705088",
+    "description": "Lead Test Development Engineer",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 91.7,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "cca25541a23e": {
+    "company": "Aptiv",
+    "title": "Embedded Software Engineer",
+    "location": "Bangalore, India",
+    "url": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/Bangalore-India/Embedded-Software-Engineer_J000705057",
+    "description": "Embedded Software Engineer Help shape the future of mobility. Imagine a world with zero vehicle accidents, zero vehicle emissions, and wireless vehicle connectivity all around us. Every day, we move closer to making that world a reality. Aptiv\u2019s passionate team of engineers and developers creates advanced safety systems, high-performance electrification solutions and data connectivity solutions so that automakers can bring advanced capabilities to more people around the globe. This is how we enable sustainable mobility and help to prevent accidents caused by human error. Your Role Develop Camera product based Embedded SW development for safety products to be used in various global OEM vehicle Define and/or optimize Autosar based SW Architectures in multicore environment Collaborate with cross-functional teams for day-to-day activities. Debugging Skills & Issue Resolution with ownership Manage your time effectively against your targets. Adhere to Company's Policies and Procedures, Emphasize and Support Continuous Process Improvement Work in an agile development environment & ASPICE. ADAS product development work experience (Radar and Camera must) Autosar based Embedded Software Development for Safety products following ASPICE compliance processes Responsible for all SW development life cycle phases Requirement Analysis, Design, Coding & Testing/Verification Perform AUTOSAR Modeling and System Configuration (SWC Compositions like Component instances, connectors). Setup and configure Autosar BSW Modules Work with various competencies in developing products. Analysis and systematic problem solving for SW reported issues Your Background Key ingredients for succeeding in this role are your: B.E. / B. Tech / M.E. / M. Tech in any specialization with 5-7 years 5-7 years of experience as Embedded SW Engineer Working experience in ADAS Camera preferred, AUTOSAR BSW (CAN, ETHERNET, DIAG, NVM) working experience is a MUST Hands-on experience in Autosar methodologies and workflows Sound understanding of embedded SW development using C on 16/32 bit microcontrollers Experience in at least one of microcontroller architectures: Renesas RH family, Tricore or PowerPC architecture Well versed with Jira, Confluence, Polarion/Doors Automotive Product Development Process knowledge (ASPICE, ISO26262) ADAS product development work experience (Radar and Camera must) Why join us? You can grow at Aptiv. Aptiv provides an inclusive work environment where all individuals can grow and develop, regardless of gender, ethnicity or beliefs. You can have an impact. Safety is a core Aptiv value; we want a safer world for us and our children, one with: Zero fatalities, Zero injuries, Zero accidents. You have support. We ensure you have the resources and support you need to take care of your family and your physical and mental health with a competitive health insurance package. Your Benefits at Aptiv: Flexible working hours; Higher Education Opportunities (UDACITY, UDEMY, COURSERA are",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": 5,
+    "yoe_max": 7,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 91.7,
+    "match_score": 36,
+    "matched_skills": [
+      "rds",
+      "rag"
+    ],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "283b06fb2a60": {
+    "company": "Aptiv",
+    "title": "Senior Software Engineer - C++ Application & Simulation",
+    "location": "Bangalore, India",
+    "url": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/Bangalore-India/Senior-Software-Engineer---C---Application---Simulation_J000702005",
+    "description": "Senior Software Engineer - C++ Application & Simulation",
+    "posted_at": "2026-10-19",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 91.7,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "4fcbf72cc88a": {
+    "company": "Aptiv",
+    "title": "Member of Technical Staff - Kernel/BSP",
+    "location": "IND Bangalore, India (2)",
+    "url": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/IND-Bangalore-India-2-SEZ---WR/Member-of-Technical-Staff---Kernel-BSP_J000704217",
+    "description": "Member of Technical Staff - Kernel/BSP",
+    "posted_at": "2026-10-19",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 91.7,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 6,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "5dc5a5140249": {
+    "company": "Johnson & Johnson",
+    "title": "Endpoint & AI Engineer Mgr",
+    "location": "Remote (US)",
+    "url": "https://jj.wd5.myworkdayjobs.com/en-US/NonCompetetiveHiring/job/Remote-US/Endpoint---AI-Engineer-Mgr_R-105219",
+    "description": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at jnj.com As guided by Our Credo, Johnson & Johnson is responsible to our employees who work with us throughout the world. We provide an inclusive work environment where each person is considered as an individual. At Johnson & Johnson, we respect the diversity and dignity of our employees and recognize their merit. Job Function: Technology Product & Platform Management Job Sub Function: Platform/Cloud Engineering Job Category: Scientific/Technology All Job Posting Locations: Remote (US) Job Description: At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com/ . Remote work options may be considered on a case-by-case basis and if approved by the Company. An internal pre-identified candidate for consideration has been identified. However, all applications will be considered. We are searching for the best talent for Endpoint & AI Engineering Manager Position Summary The Endpoint & AI Engineering Manager leads engineering, security, and lifecycle management for Johnson & Johnson\u2019s global Mac and mobile device services, with a strong focus on using Generative AI (GenAI) and agentic AI to modernize endpoint operations. The role moves the team from manual, reactive work toward AI-assisted and increasingly autonomous management, while balancing security, compliance, and end-user experience. The manager partners closely with End User Computing, Productivity & Collaboration, AI governance teams, Information Security and Risk Management, Service Delivery, Business Technology organizations, and key technology vendors. Main Responsibilities Lead the GenAI and agentic AI strategy for Mac and mobile services, prioritizing use cases that reduce manual effort, improve employee experience, and strengthen security. Design, build, and operate AI agents for proactive remediation, compliance drift detection, security response, and end-user self-service, with human-in-the-loop approvals and audit controls. Drive adoption of AI capabilities in endpoint management, including Security Copilot and Copilot in Intune,",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": 8,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 14,
+    "sponsor_cert": 100.0,
+    "match_score": 100,
+    "matched_skills": [
+      "python",
+      "react",
+      "go",
+      "api",
+      "rds",
+      "llm"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "7ba35a5af0f5": {
+    "company": "F5",
+    "title": "Principal Firmware/Diagnostics Engineer",
+    "location": "Bangalore (Non-SEZ)",
+    "url": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Bangalore-Non-SEZ/Principal-Firmware-Diagnostics-Engineer_RP1038904",
+    "description": "Principal Firmware/Diagnostics Engineer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 34,
+    "sponsor_cert": 82.4,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "b28eb39201c4": {
+    "company": "F5",
+    "title": "Engineering Manager, Salesforce & Oracle CPQ",
+    "location": "Hyderabad (SEZ)",
+    "url": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Hyderabad-SEZ/Engineering-Manager--Salesforce---Oracle-CPQ_RP1039012",
+    "description": "Engineering Manager, Salesforce & Oracle CPQ",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 34,
+    "sponsor_cert": 82.4,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "c57ec7396fe4": {
+    "company": "F5",
+    "title": "Sr Manager - Software Engineering",
+    "location": "Hyderabad SEZ",
+    "url": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Hyderabad-SEZ/Sr-Manager---Software-Engineering_RP1039186",
+    "description": "Sr Manager - Software Engineering",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 34,
+    "sponsor_cert": 82.4,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "a0152a8164fd": {
+    "company": "Blue Cross and Blue Shield of North Carolina",
+    "title": "Senior Developer",
+    "location": "Remote Flex - North Caro",
+    "url": "https://bcbsnc.wd5.myworkdayjobs.com/en-US/bcbsnc/job/Remote-Flex---North-Carolina/Senior-Developer_RQ0019660",
+    "description": "Senior Developer",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "d3e7a29e1359": {
+    "company": "University of Rochester",
+    "title": "Data Analyst II",
+    "location": "Remote Work - New York",
+    "url": "https://rochester.wd5.myworkdayjobs.com/en-US/UR_Staff/job/Remote-Work---New-York/Data-Analyst-II_R274343",
+    "description": "As a community, the University of Rochester is defined by a deep commitment to Meliora - Ever Better. Embedded in that ideal are the values we share: equity, leadership, integrity, openness, respect, and accountability. Together, we will set the highest standards for how we treat each other to ensure our community is welcoming to all and is a place where all can thrive. Job Location (Full Address): Remote Work - New York, Albany, New York, United States of America, 12224 Opening: Worker Subtype: Regular Time Type: Full time Scheduled Weekly Hours: 40 Department: 500402 Nursing Practice/SMH Work Shift: UR - Day (United States of America) Range: UR URG 108 H Compensation Range: $25.14 - $35.24 The referenced pay range represents the minimum and maximum compensation for this job. Individual annual salaries/hourly rates will be set within the job's compensation range, and will be determined by considering factors including, but not limited to, market data, education, experience, qualifications, expertise of the individual, and internal equity considerations. Responsibilities: Responsible for developing and maintaining data collection, analysis, and reporting processes to support Nursing Finance operations and decision-making. Analyzes and interprets financial, clinical, operational, and nursing performance data from multiple sources to identify data trends, variances, relationships, and opportunities for data-driven insights. Partners with Nursing Finance Team and Nursing Practice leaders to identify analytical and reporting requirements, develop advanced reporting solutions, and provide comprehensive data analyses that inform actionable insights and recommendations in support of budget planning, financial performance, and operational improvement. Develops, maintains, and enhances complex data models, queries, crosswalks, index files, databases, and reporting tools to ensure accurate and consistent financial and operational reporting. Applies independent judgment in evaluating data, investigating discrepancies, determining appropriate analytical approaches, and communicating findings. Provides analytical support for the development of the annual Nursing operating budget and ongoing fiscal management. Demonstrates technical proficiency in data management tools including advanced Excel, database systems, and reporting platforms. Actively assists the Director of Nursing Practice Finance and Sr Financial Analyst in generating the overall annual Nursing operating budget presentation. Clear communication, strong attention to detail, and willingness to learn are essential for success. ESSENTIAL FUNCTIONS Under the general direction of the Sr. Financial Analyst, conforming to URMC policies but retaining latitude for independent judgment and initiative: Report Maintenance and Data Analysis: Manage NDNQI submission process for nursing indicators Develop, maintain, and troubleshoot data models, queries, crosswalks, and index files to ensure data accuracy and co",
+    "posted_at": "2026-10-20",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 67,
+    "sponsor_cert": 95.5,
+    "match_score": 44,
+    "matched_skills": [
+      "sql",
+      "go",
+      "rds"
+    ],
+    "age_days": 5,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "f4855efb76ec": {
+    "company": "Hewlett Packard Enterprise",
+    "title": "Senior Data Engineer",
+    "location": "Bengaluru, Karn\u0101taka, In",
+    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/acjobsite/job/Bengaluru-Karntaka-India/Senior-Data-Engineer_1216845",
+    "description": "Senior Data Engineer",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 85,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "0946b5c1b10a": {
+    "company": "Blackstone",
+    "title": "BXTI - Vice President - Platform Engineering",
+    "location": "Bangalore",
+    "url": "https://blackstone.wd1.myworkdayjobs.com/en-US/bx_external_site/job/Bangalore/BXTI---Vice-President---Platform-Engineering_45148",
+    "description": "BXTI - Vice President - Platform Engineering",
+    "posted_at": "",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 19,
+    "sponsor_cert": 42.1,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": null,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "0e629e3f16df": {
+    "company": "Jade Global",
+    "title": "Uipath Developer",
+    "location": "Pune Maharashtra",
+    "url": "https://jadeglobal.wd5.myworkdayjobs.com/en-US/jade_careers/job/Pune-Maharashtra/Uipath-Developer_R-106377",
+    "description": "Uipath Developer",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "96d2d766eebf": {
+    "company": "Jade Global",
+    "title": "OIC LEAD DEVELOPER / ARCHITECT",
+    "location": "Pune, Maharashtra",
+    "url": "https://jadeglobal.wd5.myworkdayjobs.com/en-US/jade_careers/job/Pune-Maharashtra/OIC-LEAD-DEVELOPER---ARCHITECT_R-106347",
+    "description": "OIC LEAD DEVELOPER / ARCHITECT",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "5e7a6bc78ccd": {
+    "company": "Rocket Mortgage",
+    "title": "Senior Systems Engineer (Hybrid or Remote)",
+    "location": "Remote - Michigan",
+    "url": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Remote---Michigan/Systems-Engineer_R-083686",
+    "description": "Senior Systems Engineer (Hybrid or Remote)",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 12,
+    "sponsor_cert": 100.0,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "e3c1ebb7e38b": {
+    "company": "Wells Fargo",
+    "title": "Senior Software Engineer",
+    "location": "Hyderabad, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Hyderabad-India/Senior-Software-Engineer_R-580930",
+    "description": "Senior Software Engineer",
+    "posted_at": "2026-10-23",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 2,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "84be8222770f": {
+    "company": "Wells Fargo",
+    "title": "Lead Software Engineer (Fenergo/KYC)",
+    "location": "Bengaluru, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Bengaluru-India/Lead-Software-Engineer--Fenergo-KYC-_R-578151",
+    "description": "Lead Software Engineer (Fenergo/KYC)",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 28,
+    "matched_skills": [
+      "go"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "1f6214ca5120": {
+    "company": "Wells Fargo",
+    "title": "Lead Software Engineer - .Net, React with AI",
+    "location": "Hyderabad, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Hyderabad-India/Lead-Software-Engineer---Net--React-with-AI_R-582156",
+    "description": "Lead Software Engineer - .Net, React with AI",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 28,
+    "matched_skills": [
+      "react"
+    ],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "29e9343527af": {
+    "company": "Wells Fargo",
+    "title": "Lead Software Engineer - Gen AI, LLM, Agentic AI",
+    "location": "Hyderabad, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Hyderabad-India/Lead-Software-Engineer---Gen-AI--LLM--Agentic-AI_R-582167",
+    "description": "Lead Software Engineer - Gen AI, LLM, Agentic AI",
+    "posted_at": "2026-10-24",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 52,
+    "matched_skills": [
+      "llm",
+      "gen ai",
+      "agent",
+      "agentic"
+    ],
+    "age_days": 1,
+    "fresh": true,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "7d3544167bdf": {
+    "company": "Wells Fargo",
+    "title": "Senior Software Engineer -  F5 BIG-IP (LTM/GTM/DNS/WAF) and AVI Load Balancers",
+    "location": "Bengaluru, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Bengaluru-India/Senior-Software-Engineer_R-578484",
+    "description": "Senior Software Engineer -  F5 BIG-IP (LTM/GTM/DNS/WAF) and AVI Load Balancers",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 3,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "bbeb9abe0a14": {
+    "company": "Wells Fargo",
+    "title": "Principal Engineer \u2013 GenAI in SDLC (Java & Agentic AI)",
+    "location": "Bengaluru, India",
+    "url": "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/Bengaluru-India/Principal-Engineer---GenAI-in-SDLC--Java---Agentic-AI-_R-581183",
+    "description": "Principal Engineer \u2013 GenAI in SDLC (Java & Agentic AI)",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "high",
+    "sponsors_visa": true,
+    "sponsor_cases": 54,
+    "sponsor_cert": 100.0,
+    "match_score": 44,
+    "matched_skills": [
+      "java",
+      "agent",
+      "agentic"
+    ],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "7d7e5a9f1532": {
+    "company": "Broadcom Limited",
+    "title": "Forward Deployed Engineer - Kubernetes",
+    "location": "USA-TN-Remote Location",
+    "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-TN-Remote-Location/Forward-Deployed-Engineer---Kubernetes_R027412",
+    "description": "Please Note: 1. If you are a first time user, please create your candidate login account before you apply for a job. (Click Sign In > Create Account) 2. If you already have a Candidate Account, please Sign-In before you apply. Job Description: Position Description We are seeking a hands on, highly engaged Forward Deployed Engineer specializing in Kubernetes, platform modernization, large scale stateful workload migration, and enterprise AI infrastructure. In this role, you will be embedded directly alongside enterprise client teams throughout the entire end to end lifecycle of an engagement. From initial architecture, bare metal/legacy re platforming, and AI cluster setup to live in the field troubleshooting and production rollout. Because you are part of the core Engineering organization, you won't just file bug reports; you will write production code in the field, build prototype integrations, and channel those contributions directly back to our engineering teams across the Infrastructure Software Division (ISG) to help shape, prioritize, and accelerate high impact platform capabilities. This role sits directly within the Engineering Business Unit (BU), working side by side with product and core software teams. Unlike traditional professional services or post sales support roles, our Forward Deployed Engineering team operates as an extension of core engineering in the field. Our Core Mission: Reduce customer adoption friction, dramatically shorten software iteration cycles, and establish a high bandwidth, direct feedback loop between real world enterprise deployments and product development. Key Responsibilities Direct Engineering to Field Collaboration: Act as an embedded engineering liaison across the Infrastructure Software Division, working directly with core software architects, product managers, and enterprise client developers to eliminate deployment friction. Rapid Iteration & Friction Reduction: Identify recurring migration blockers and platform usability gaps in real world customer environments, rapidly building and testing field fixes to shorten feature iteration cycles from months to days. End to End Engagement Ownership: Stay actively embedded with customer technical teams from pre migration discovery through go live and operational stabilization, ensuring successful platform adoption and high customer trust. Hands on Field Implementation & Troubleshooting: Work shoulder to shoulder with client engineers in production environments to write code, build manifests, debug live networking/storage/GPU failures, and optimize VKS performance. Engineering Feedback Loop & Feature Prioritization: Synthesize field tested code, architectural patterns, and customer pain points directly into core engineering requirements. Partner with product managers and core engineers to translate customer contributions into prioritized platform features. VKS & AI Infrastructure Architecture: Architect, deploy, and maintain production grade vSphere Kubernetes S",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": 12,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 22,
+    "sponsor_cert": 100.0,
+    "match_score": 88,
+    "matched_skills": [
+      "sql",
+      "go",
+      "node",
+      "rest",
+      "api",
+      "nosql"
+    ],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "ae3034372735": {
+    "company": "Broadcom Limited",
+    "title": "Principal Forward Deployed Engineer \u2013 AI & Developer Platform",
+    "location": "CAN-Ontario Remote Locat",
+    "url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/CAN-Ontario-Remote-Location/Principal-Forward-Deployed-Engineer---AI---Developer-Platform_R027411",
+    "description": "Principal Forward Deployed Engineer \u2013 AI & Developer Platform",
+    "posted_at": "2026-10-21",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": 22,
+    "sponsor_cert": 100.0,
+    "match_score": 20,
+    "matched_skills": [],
+    "age_days": 4,
+    "fresh": false,
+    "first_seen": "2026-10-25",
+    "last_seen": "2026-10-25",
+    "open": true
+  },
+  "c7416c82b2ef": {
+    "company": "Silicon Laboratories",
+    "title": "Lead Engineer \u2013 IC Verification",
+    "location": "Hyderabad",
+    "url": "https://silabs.wd1.myworkdayjobs.com/en-US/SiliconlabsCareers/job/Hyderabad/Lead-Engineer---IC-Verification_21135-1",
+    "description": "Lead Engineer \u2013 IC Verification",
+    "posted_at": "2026-10-22",
+    "source": "workday",
+    "yoe_min": null,
+    "yoe_max": null,
+    "opt_friendly": true,
+    "sponsor_tier": "medium",
+    "sponsors_visa": true,
+    "sponsor_cases": null,
+    "sponsor_cert": null,
+    "match_score": 8,
+    "matched_skills": [],
+    "age_days": 3,
     "fresh": false,
     "first_seen": "2026-10-25",
     "last_seen": "2026-10-25",
